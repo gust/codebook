@@ -380,19 +380,6 @@ allCodes =
         , { name = "accounting", note = Nothing }
         ]
     }
-  , { process = { name = "knowing (about)", note = Nothing }
-    , modifiers =
-        [ { name = "nothing", note = Nothing }
-        , { name = "term sheet norms", note = Nothing }
-        , { name = "company structure", note = Nothing }
-        , { name = "hiring", note = Nothing }
-        , { name = "Saas finances", note = Nothing }
-        , { name = "board relations", note = Nothing }
-        , { name = "taxes", note = Nothing }
-        , { name = "PR", note = Nothing }
-        , { name = "accounting", note = Nothing }
-        ]
-    }
   , { process = { name = "launching a product", note = Nothing }
     , modifiers = []
     }

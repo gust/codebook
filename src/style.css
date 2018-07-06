@@ -1,0 +1,102 @@
+body {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.codebook {
+  display: flex;
+  font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #4a4a4a;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  margin: 20px 20px 10px 20px;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+input:focus {
+  border: 1px solid #1abc96;
+  outline: none;
+}
+
+.panel {
+  background-color: white;
+  max-width: 40%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+
+.codes {
+  overflow-y: scroll;
+  height: calc(100vh - 70px);
+}
+
+.selection {
+  flex: 1;
+  padding: 20px 70px;
+  overflow-y: scroll;
+}
+
+.selection h1 {
+  color: black;
+  font-size: 24px;
+}
+
+.selection h1 + p {
+  margin-bottom: 30px;
+}
+
+.selection strong {
+  color: black;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.code {
+  border-left: 3px solid transparent;
+}
+
+.code:last-child{
+  padding-bottom: 5px;
+}
+
+.code:hover {
+  border-left: 3px solid rgba(26, 188, 150, .5);
+  cursor: pointer;
+}
+
+.code.selected {
+  border-left: 3px solid #1abc96;
+}
+
+.process {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px 5px 20px;
+  margin: 0;
+  color: black;
+}
+
+.modifier {
+  font-weight: normal;
+  padding: 5px 20px 5px 40px;
+}
+
+.hl {
+  background-color: rgba(26, 188, 150, .05);
+}
+</style>

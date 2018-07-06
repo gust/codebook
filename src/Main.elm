@@ -569,4 +569,130 @@ allCodes =
         [ { name = "to Hubspot", note = Nothing }
         ]
     }
+  , { process = { name = "switching HR provider", note = Nothing}
+    , modifiers =
+        [ { name = "to Trinet", note = Nothing }
+        ]
+    }
+  , { process = { name = "talking to founders", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "testing", note = Nothing}
+    , modifiers =
+        [ { name = "MVP", note = Nothing }
+        ]
+    }
+  , { process = { name = "quitting your job", note = Nothing}
+    , modifiers =
+        [ { name = "instability", note = Nothing }
+        , { name = "with a backup plan", note = Nothing }
+        ]
+    }
+  , { process = { name = "using blogs ", note = Nothing}
+    , modifiers =
+        [ { name = "written by VCs", note = Nothing }
+        , { name = "conflicting info", note = Nothing }
+        ]
+    }
+  , { process = { name = "using cap table management", note = Nothing}
+    , modifiers =
+        [ { name = "DIY", note = Nothing }
+        , { name = "helpful", note = Nothing }
+        , { name = "good record-keeping", note = Nothing }
+        ]
+    }
+  , { process = { name = "using expense tracking", note = Nothing}
+    , modifiers =
+        [ { name = "DIY", note = Just "ie. proactively tracking expenses but without paid software/help" }
+        , { name = "Propellor", note = Nothing }
+        , { name = "Quickbooks Online", note = Nothing }
+        ]
+    }
+  , { process = { name = "using experience", note = Nothing}
+    , modifiers =
+        [ { name = "from business school", note = Nothing }
+        ]
+    }
+  , { process = { name = "using google", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "using hackernews", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "using HR provider", note = Nothing}
+    , modifiers =
+        [ { name = "Insperity", note = Nothing }
+        , { name = "PEO", note = Nothing }
+        , { name = "Gusto", note = Nothing }
+        , { name = "for payroll", note = Nothing }
+        , { name = "Paychex", note = Nothing }
+        ]
+    }
+  , { process = { name = "using a lawyer", note = Nothing}
+    , modifiers =
+        [ { name = "low quality", note = Nothing }
+        , { name = "to manage equity", note = Nothing }
+        ]
+    }
+  , { process = { name = "using marketing tools", note = Nothing}
+    , modifiers =
+        [ { name = "WordPress", note = Nothing }
+        , { name = "Salesforce", note = Nothing }
+        , { name = "Hubspot", note = Nothing }
+        , { name = "poor fit", note = Nothing }
+        ]
+    }
+  , { process = { name = "using network", note = Just "ie. the means"}
+    , modifiers =
+        [ { name = "school", note = Nothing }
+        , { name = "legal", note = Nothing }
+        , { name = "accelerator", note = Nothing }
+        , { name = "for testing", note = Nothing }
+        , { name = "for validation", note = Nothing }
+        , { name = "investors", note = Nothing }
+        , { name = "prior teammates", note = Nothing }
+        , { name = "for resources", note = Nothing }
+        , { name = "for lawyer", note = Nothing }
+        , { name = "lawyer's", note = Nothing }
+        , { name = "personal/family", note = Nothing } ]
+    }
+  , { process = { name = "using a PEO", note = Nothing}
+    , modifiers =
+        [ { name = "stuck", note = Nothing }
+        , { name = "poor fit", note = Nothing }
+        , { name = "cobbled together", note = Nothing }
+        ]
+    }
+  , { process = { name = "validating an idea", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "wanting to work on a startup", note = Nothing}
+    , modifiers =
+        [ { name = "because of growth potential", note = Nothing }
+        , { name = "small team", note = Nothing }
+        ]
+    }
+  , { process = { name = "wasting money", note = Nothing}
+    , modifiers =
+        [ { name = "LLC", note = Nothing }
+        , { name = "expensive", note = Nothing }
+        ]
+    }
+  , { process = { name = "wasting time", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "winning an award", note = Nothing}
+    , modifiers = []
+    }
+  , { process = { name = "working at a big company", note = Nothing}
+    , modifiers =
+        [ { name = "Google", note = Nothing }
+        ]
+    }
+  , { process = { name = "working on a project", note = Nothing}
+    , modifiers =
+        [ { name = "part-time/nights and weekends", note = Nothing }
+        , { name = "at an incubator", note = Nothing }
+        ]
+    }
   ]

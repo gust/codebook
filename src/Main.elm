@@ -265,6 +265,9 @@ allCodes =
   , { process = { name = "having a board", note = Nothing }
     , modifiers = []
     }
+  , { process = { name = "having competitors", note = Nothing }
+    , modifiers = []
+    }
   , { process = { name = "having connections", note = Nothing }
     , modifiers =
         [ { name = "important", note = Nothing }
@@ -295,6 +298,9 @@ allCodes =
         , { name = "starting a company", note = Nothing }
         , { name = "technical", note = Nothing }
         ]
+    }
+  , { process = { name = "helping network", note = Nothing }
+    , modifiers = []
     }
   , { process = { name = "hiring contractors", note = Nothing }
     , modifiers =

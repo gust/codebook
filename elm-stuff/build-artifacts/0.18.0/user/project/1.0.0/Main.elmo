@@ -811,50 +811,54 @@ var _user$project$Main$allCodes = {
 																																													_0: {name: 'hiring', note: _elm_lang$core$Maybe$Nothing},
 																																													_1: {
 																																														ctor: '::',
-																																														_0: {
-																																															name: 'lawyer',
-																																															note: _elm_lang$core$Maybe$Just('the lawyer is the mistake, not the lawyer made the mistake')
-																																														},
+																																														_0: {name: 'outsourcing', note: _elm_lang$core$Maybe$Nothing},
 																																														_1: {
 																																															ctor: '::',
-																																															_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
+																																															_0: {
+																																																name: 'lawyer',
+																																																note: _elm_lang$core$Maybe$Just('the lawyer is the mistake, not the lawyer made the mistake')
+																																															},
 																																															_1: {
 																																																ctor: '::',
-																																																_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
+																																																_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
 																																																_1: {
 																																																	ctor: '::',
-																																																	_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
+																																																	_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
 																																																	_1: {
 																																																		ctor: '::',
-																																																		_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
+																																																		_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
 																																																		_1: {
 																																																			ctor: '::',
-																																																			_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
+																																																			_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
 																																																			_1: {
 																																																				ctor: '::',
-																																																				_0: {name: 'personal', note: _elm_lang$core$Maybe$Nothing},
+																																																				_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
 																																																				_1: {
 																																																					ctor: '::',
-																																																					_0: {name: 'vendors', note: _elm_lang$core$Maybe$Nothing},
+																																																					_0: {name: 'personal', note: _elm_lang$core$Maybe$Nothing},
 																																																					_1: {
 																																																						ctor: '::',
-																																																						_0: {
-																																																							name: 'not hiring',
-																																																							note: _elm_lang$core$Maybe$Just('should have hired, but didn\'t')
-																																																						},
+																																																						_0: {name: 'vendors', note: _elm_lang$core$Maybe$Nothing},
 																																																						_1: {
 																																																							ctor: '::',
-																																																							_0: {name: 'culture', note: _elm_lang$core$Maybe$Nothing},
+																																																							_0: {
+																																																								name: 'not hiring',
+																																																								note: _elm_lang$core$Maybe$Just('should have hired, but didn\'t')
+																																																							},
 																																																							_1: {
 																																																								ctor: '::',
-																																																								_0: {name: 'cap table management', note: _elm_lang$core$Maybe$Nothing},
+																																																								_0: {name: 'culture', note: _elm_lang$core$Maybe$Nothing},
 																																																								_1: {
 																																																									ctor: '::',
-																																																									_0: {name: 'focus', note: _elm_lang$core$Maybe$Nothing},
+																																																									_0: {name: 'cap table management', note: _elm_lang$core$Maybe$Nothing},
 																																																									_1: {
 																																																										ctor: '::',
-																																																										_0: {name: 'growth strategy', note: _elm_lang$core$Maybe$Nothing},
-																																																										_1: {ctor: '[]'}
+																																																										_0: {name: 'focus', note: _elm_lang$core$Maybe$Nothing},
+																																																										_1: {
+																																																											ctor: '::',
+																																																											_0: {name: 'growth strategy', note: _elm_lang$core$Maybe$Nothing},
+																																																											_1: {ctor: '[]'}
+																																																										}
 																																																									}
 																																																								}
 																																																							}
@@ -1028,11 +1032,19 @@ var _user$project$Main$allCodes = {
 																																																															_0: {name: 'finances', note: _elm_lang$core$Maybe$Nothing},
 																																																															_1: {
 																																																																ctor: '::',
-																																																																_0: {name: 'free', note: _elm_lang$core$Maybe$Nothing},
+																																																																_0: {name: 'development', note: _elm_lang$core$Maybe$Nothing},
 																																																																_1: {
 																																																																	ctor: '::',
-																																																																	_0: {name: 'because of money', note: _elm_lang$core$Maybe$Nothing},
-																																																																	_1: {ctor: '[]'}
+																																																																	_0: {name: 'design', note: _elm_lang$core$Maybe$Nothing},
+																																																																	_1: {
+																																																																		ctor: '::',
+																																																																		_0: {name: 'free', note: _elm_lang$core$Maybe$Nothing},
+																																																																		_1: {
+																																																																			ctor: '::',
+																																																																			_0: {name: 'because of money', note: _elm_lang$core$Maybe$Nothing},
+																																																																			_1: {ctor: '[]'}
+																																																																		}
+																																																																	}
 																																																																}
 																																																															}
 																																																														}

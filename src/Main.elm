@@ -409,6 +409,7 @@ allCodes =
     , modifiers =
         [ { name = "expensive", note = Nothing }
         , { name = "hiring", note = Nothing }
+        , { name = "outsourcing", note = Nothing }
         , { name = "lawyer", note = Just "the lawyer is the mistake, not the lawyer made the mistake" }
         , { name = "accounting", note = Nothing }
         , { name = "early", note = Nothing }
@@ -502,6 +503,8 @@ allCodes =
         [ { name = "CFO", note = Nothing }
         , { name = "bookkeeper", note = Nothing }
         , { name = "finances", note = Nothing }
+        , { name = "development", note = Nothing }
+        , { name = "design", note = Nothing }
         , { name = "free", note = Nothing }
         , { name = "because of money", note = Nothing }
         ]

@@ -467,7 +467,7 @@ allCodes =
   , { process = { name = "needing office space", note = Nothing }
     , modifiers =
         [ { name = "co-working", note = Nothing }
-        , { "expanding", note = Nothing }
+        , { name = "expanding", note = Nothing }
         , { name = "lab space", note = Nothing }
         , { name = "manufacturing", note = Nothing }
         , { name = "location", note = Nothing }

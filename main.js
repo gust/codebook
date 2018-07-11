@@ -8648,88 +8648,61 @@ var _user$project$Main$allCodes = {
 																						_1: {
 																							ctor: '::',
 																							_0: {
-																								process: {name: 'having connections', note: _elm_lang$core$Maybe$Nothing},
-																								modifiers: {
-																									ctor: '::',
-																									_0: {name: 'important', note: _elm_lang$core$Maybe$Nothing},
-																									_1: {
-																										ctor: '::',
-																										_0: {name: 'founders', note: _elm_lang$core$Maybe$Nothing},
-																										_1: {
-																											ctor: '::',
-																											_0: {name: 'through school', note: _elm_lang$core$Maybe$Nothing},
-																											_1: {ctor: '[]'}
-																										}
-																									}
-																								}
+																								process: {name: 'having competitors', note: _elm_lang$core$Maybe$Nothing},
+																								modifiers: {ctor: '[]'}
 																							},
 																							_1: {
 																								ctor: '::',
 																								_0: {
-																									process: {name: 'having a team', note: _elm_lang$core$Maybe$Nothing},
+																									process: {name: 'having connections', note: _elm_lang$core$Maybe$Nothing},
 																									modifiers: {
 																										ctor: '::',
-																										_0: {name: 'good', note: _elm_lang$core$Maybe$Nothing},
+																										_0: {name: 'important', note: _elm_lang$core$Maybe$Nothing},
 																										_1: {
 																											ctor: '::',
-																											_0: {name: 'bad', note: _elm_lang$core$Maybe$Nothing},
-																											_1: {ctor: '[]'}
+																											_0: {name: 'founders', note: _elm_lang$core$Maybe$Nothing},
+																											_1: {
+																												ctor: '::',
+																												_0: {name: 'through school', note: _elm_lang$core$Maybe$Nothing},
+																												_1: {ctor: '[]'}
+																											}
 																										}
 																									}
 																								},
 																								_1: {
 																									ctor: '::',
 																									_0: {
-																										process: {
-																											name: 'having an idea',
-																											note: _elm_lang$core$Maybe$Just('for a company/product')
-																										},
+																										process: {name: 'having a team', note: _elm_lang$core$Maybe$Nothing},
 																										modifiers: {
 																											ctor: '::',
 																											_0: {name: 'good', note: _elm_lang$core$Maybe$Nothing},
 																											_1: {
 																												ctor: '::',
 																												_0: {name: 'bad', note: _elm_lang$core$Maybe$Nothing},
-																												_1: {
-																													ctor: '::',
-																													_0: {name: 'many', note: _elm_lang$core$Maybe$Nothing},
-																													_1: {
-																														ctor: '::',
-																														_0: {name: 'from experience', note: _elm_lang$core$Maybe$Nothing},
-																														_1: {ctor: '[]'}
-																													}
-																												}
+																												_1: {ctor: '[]'}
 																											}
 																										}
 																									},
 																									_1: {
 																										ctor: '::',
 																										_0: {
-																											process: {name: 'having experience', note: _elm_lang$core$Maybe$Nothing},
+																											process: {
+																												name: 'having an idea',
+																												note: _elm_lang$core$Maybe$Just('for a company/product')
+																											},
 																											modifiers: {
 																												ctor: '::',
-																												_0: {name: 'in industry', note: _elm_lang$core$Maybe$Nothing},
+																												_0: {name: 'good', note: _elm_lang$core$Maybe$Nothing},
 																												_1: {
 																													ctor: '::',
-																													_0: {name: 'with startups', note: _elm_lang$core$Maybe$Nothing},
+																													_0: {name: 'bad', note: _elm_lang$core$Maybe$Nothing},
 																													_1: {
 																														ctor: '::',
-																														_0: {name: 'with board relations', note: _elm_lang$core$Maybe$Nothing},
+																														_0: {name: 'many', note: _elm_lang$core$Maybe$Nothing},
 																														_1: {
 																															ctor: '::',
-																															_0: {
-																																name: 'non-founder',
-																																note: _elm_lang$core$Maybe$Just('working at a startup')
-																															},
-																															_1: {
-																																ctor: '::',
-																																_0: {name: 'starting a company', note: _elm_lang$core$Maybe$Nothing},
-																																_1: {
-																																	ctor: '::',
-																																	_0: {name: 'technical', note: _elm_lang$core$Maybe$Nothing},
-																																	_1: {ctor: '[]'}
-																																}
-																															}
+																															_0: {name: 'from experience', note: _elm_lang$core$Maybe$Nothing},
+																															_1: {ctor: '[]'}
 																														}
 																													}
 																												}
@@ -8738,20 +8711,31 @@ var _user$project$Main$allCodes = {
 																										_1: {
 																											ctor: '::',
 																											_0: {
-																												process: {name: 'hiring contractors', note: _elm_lang$core$Maybe$Nothing},
+																												process: {name: 'having experience', note: _elm_lang$core$Maybe$Nothing},
 																												modifiers: {
 																													ctor: '::',
-																													_0: {name: 'designers', note: _elm_lang$core$Maybe$Nothing},
+																													_0: {name: 'in industry', note: _elm_lang$core$Maybe$Nothing},
 																													_1: {
 																														ctor: '::',
-																														_0: {name: 'developers', note: _elm_lang$core$Maybe$Nothing},
+																														_0: {name: 'with startups', note: _elm_lang$core$Maybe$Nothing},
 																														_1: {
 																															ctor: '::',
-																															_0: {name: 'part-time', note: _elm_lang$core$Maybe$Nothing},
+																															_0: {name: 'with board relations', note: _elm_lang$core$Maybe$Nothing},
 																															_1: {
 																																ctor: '::',
-																																_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
-																																_1: {ctor: '[]'}
+																																_0: {
+																																	name: 'non-founder',
+																																	note: _elm_lang$core$Maybe$Just('working at a startup')
+																																},
+																																_1: {
+																																	ctor: '::',
+																																	_0: {name: 'starting a company', note: _elm_lang$core$Maybe$Nothing},
+																																	_1: {
+																																		ctor: '::',
+																																		_0: {name: 'technical', note: _elm_lang$core$Maybe$Nothing},
+																																		_1: {ctor: '[]'}
+																																	}
+																																}
 																															}
 																														}
 																													}
@@ -8760,79 +8744,26 @@ var _user$project$Main$allCodes = {
 																											_1: {
 																												ctor: '::',
 																												_0: {
-																													process: {name: 'hiring counsel', note: _elm_lang$core$Maybe$Nothing},
-																													modifiers: {
-																														ctor: '::',
-																														_0: {name: 'at incorporation', note: _elm_lang$core$Maybe$Nothing},
-																														_1: {
-																															ctor: '::',
-																															_0: {name: 'introduced', note: _elm_lang$core$Maybe$Nothing},
-																															_1: {
-																																ctor: '::',
-																																_0: {
-																																	name: 'based on feels',
-																																	note: _elm_lang$core$Maybe$Just('a personality, interest in project, good meeting, etc')
-																																},
-																																_1: {
-																																	ctor: '::',
-																																	_0: {
-																																		name: 'based on their network',
-																																		note: _elm_lang$core$Maybe$Just('the lawyer/firm\'s network')
-																																	},
-																																	_1: {
-																																		ctor: '::',
-																																		_0: {name: 'based on reputation', note: _elm_lang$core$Maybe$Nothing},
-																																		_1: {
-																																			ctor: '::',
-																																			_0: {
-																																				name: 'based on their experience with startups',
-																																				note: _elm_lang$core$Maybe$Just('the lawyer/firm\'s experience')
-																																			},
-																																			_1: {ctor: '[]'}
-																																		}
-																																	}
-																																}
-																															}
-																														}
-																													}
+																													process: {name: 'helping network', note: _elm_lang$core$Maybe$Nothing},
+																													modifiers: {ctor: '[]'}
 																												},
 																												_1: {
 																													ctor: '::',
 																													_0: {
-																														process: {name: 'hiring employees', note: _elm_lang$core$Maybe$Nothing},
+																														process: {name: 'hiring contractors', note: _elm_lang$core$Maybe$Nothing},
 																														modifiers: {
 																															ctor: '::',
-																															_0: {name: 'full-time', note: _elm_lang$core$Maybe$Nothing},
+																															_0: {name: 'designers', note: _elm_lang$core$Maybe$Nothing},
 																															_1: {
 																																ctor: '::',
-																																_0: {name: 'first', note: _elm_lang$core$Maybe$Nothing},
+																																_0: {name: 'developers', note: _elm_lang$core$Maybe$Nothing},
 																																_1: {
 																																	ctor: '::',
-																																	_0: {name: 'multiple', note: _elm_lang$core$Maybe$Nothing},
+																																	_0: {name: 'part-time', note: _elm_lang$core$Maybe$Nothing},
 																																	_1: {
 																																		ctor: '::',
-																																		_0: {name: 'smart people', note: _elm_lang$core$Maybe$Nothing},
-																																		_1: {
-																																			ctor: '::',
-																																			_0: {name: 'designers', note: _elm_lang$core$Maybe$Nothing},
-																																			_1: {
-																																				ctor: '::',
-																																				_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
-																																				_1: {
-																																					ctor: '::',
-																																					_0: {name: 'specialized', note: _elm_lang$core$Maybe$Nothing},
-																																					_1: {
-																																						ctor: '::',
-																																						_0: {name: 'hard', note: _elm_lang$core$Maybe$Nothing},
-																																						_1: {
-																																							ctor: '::',
-																																							_0: {name: 'engineers', note: _elm_lang$core$Maybe$Nothing},
-																																							_1: {ctor: '[]'}
-																																						}
-																																					}
-																																				}
-																																			}
-																																		}
+																																		_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
+																																		_1: {ctor: '[]'}
 																																	}
 																																}
 																															}
@@ -8841,42 +8772,75 @@ var _user$project$Main$allCodes = {
 																													_1: {
 																														ctor: '::',
 																														_0: {
-																															process: {name: 'hiring interns', note: _elm_lang$core$Maybe$Nothing},
+																															process: {name: 'hiring counsel', note: _elm_lang$core$Maybe$Nothing},
 																															modifiers: {
 																																ctor: '::',
-																																_0: {name: 'first', note: _elm_lang$core$Maybe$Nothing},
-																																_1: {ctor: '[]'}
+																																_0: {name: 'at incorporation', note: _elm_lang$core$Maybe$Nothing},
+																																_1: {
+																																	ctor: '::',
+																																	_0: {name: 'introduced', note: _elm_lang$core$Maybe$Nothing},
+																																	_1: {
+																																		ctor: '::',
+																																		_0: {
+																																			name: 'based on feels',
+																																			note: _elm_lang$core$Maybe$Just('a personality, interest in project, good meeting, etc')
+																																		},
+																																		_1: {
+																																			ctor: '::',
+																																			_0: {
+																																				name: 'based on their network',
+																																				note: _elm_lang$core$Maybe$Just('the lawyer/firm\'s network')
+																																			},
+																																			_1: {
+																																				ctor: '::',
+																																				_0: {name: 'based on reputation', note: _elm_lang$core$Maybe$Nothing},
+																																				_1: {
+																																					ctor: '::',
+																																					_0: {
+																																						name: 'based on their experience with startups',
+																																						note: _elm_lang$core$Maybe$Just('the lawyer/firm\'s experience')
+																																					},
+																																					_1: {ctor: '[]'}
+																																				}
+																																			}
+																																		}
+																																	}
+																																}
 																															}
 																														},
 																														_1: {
 																															ctor: '::',
 																															_0: {
-																																process: {name: 'incorporating', note: _elm_lang$core$Maybe$Nothing},
+																																process: {name: 'hiring employees', note: _elm_lang$core$Maybe$Nothing},
 																																modifiers: {
 																																	ctor: '::',
-																																	_0: {name: 'C-Corp', note: _elm_lang$core$Maybe$Nothing},
+																																	_0: {name: 'full-time', note: _elm_lang$core$Maybe$Nothing},
 																																	_1: {
 																																		ctor: '::',
-																																		_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
+																																		_0: {name: 'first', note: _elm_lang$core$Maybe$Nothing},
 																																		_1: {
 																																			ctor: '::',
-																																			_0: {name: 'doing it yourself', note: _elm_lang$core$Maybe$Nothing},
+																																			_0: {name: 'multiple', note: _elm_lang$core$Maybe$Nothing},
 																																			_1: {
 																																				ctor: '::',
-																																				_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
+																																				_0: {name: 'smart people', note: _elm_lang$core$Maybe$Nothing},
 																																				_1: {
 																																					ctor: '::',
-																																					_0: {name: 'initially', note: _elm_lang$core$Maybe$Nothing},
+																																					_0: {name: 'designers', note: _elm_lang$core$Maybe$Nothing},
 																																					_1: {
 																																						ctor: '::',
-																																						_0: {name: 'reincorporating', note: _elm_lang$core$Maybe$Nothing},
+																																						_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
 																																						_1: {
 																																							ctor: '::',
-																																							_0: {name: 'simply', note: _elm_lang$core$Maybe$Nothing},
+																																							_0: {name: 'specialized', note: _elm_lang$core$Maybe$Nothing},
 																																							_1: {
 																																								ctor: '::',
-																																								_0: {name: 'lawyer', note: _elm_lang$core$Maybe$Nothing},
-																																								_1: {ctor: '[]'}
+																																								_0: {name: 'hard', note: _elm_lang$core$Maybe$Nothing},
+																																								_1: {
+																																									ctor: '::',
+																																									_0: {name: 'engineers', note: _elm_lang$core$Maybe$Nothing},
+																																									_1: {ctor: '[]'}
+																																								}
 																																							}
 																																						}
 																																					}
@@ -8889,133 +8853,145 @@ var _user$project$Main$allCodes = {
 																															_1: {
 																																ctor: '::',
 																																_0: {
-																																	process: {name: 'issuing options', note: _elm_lang$core$Maybe$Nothing},
+																																	process: {name: 'hiring interns', note: _elm_lang$core$Maybe$Nothing},
 																																	modifiers: {
 																																		ctor: '::',
-																																		_0: {name: 'to employees', note: _elm_lang$core$Maybe$Nothing},
-																																		_1: {
-																																			ctor: '::',
-																																			_0: {name: 'to founders', note: _elm_lang$core$Maybe$Nothing},
-																																			_1: {
-																																				ctor: '::',
-																																				_0: {name: 'to advisors', note: _elm_lang$core$Maybe$Nothing},
-																																				_1: {ctor: '[]'}
-																																			}
-																																		}
+																																		_0: {name: 'first', note: _elm_lang$core$Maybe$Nothing},
+																																		_1: {ctor: '[]'}
 																																	}
 																																},
 																																_1: {
 																																	ctor: '::',
 																																	_0: {
-																																		process: {name: 'issuing shares', note: _elm_lang$core$Maybe$Nothing},
+																																		process: {name: 'incorporating', note: _elm_lang$core$Maybe$Nothing},
 																																		modifiers: {
 																																			ctor: '::',
-																																			_0: {name: 'initial', note: _elm_lang$core$Maybe$Nothing},
+																																			_0: {name: 'C-Corp', note: _elm_lang$core$Maybe$Nothing},
 																																			_1: {
 																																				ctor: '::',
-																																				_0: {
-																																					name: 'for contributions',
-																																					note: _elm_lang$core$Maybe$Just('other than investment')
-																																				},
-																																				_1: {ctor: '[]'}
+																																				_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
+																																				_1: {
+																																					ctor: '::',
+																																					_0: {name: 'doing it yourself', note: _elm_lang$core$Maybe$Nothing},
+																																					_1: {
+																																						ctor: '::',
+																																						_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
+																																						_1: {
+																																							ctor: '::',
+																																							_0: {name: 'initially', note: _elm_lang$core$Maybe$Nothing},
+																																							_1: {
+																																								ctor: '::',
+																																								_0: {name: 'reincorporating', note: _elm_lang$core$Maybe$Nothing},
+																																								_1: {
+																																									ctor: '::',
+																																									_0: {name: 'simply', note: _elm_lang$core$Maybe$Nothing},
+																																									_1: {
+																																										ctor: '::',
+																																										_0: {name: 'lawyer', note: _elm_lang$core$Maybe$Nothing},
+																																										_1: {ctor: '[]'}
+																																									}
+																																								}
+																																							}
+																																						}
+																																					}
+																																				}
 																																			}
 																																		}
 																																	},
 																																	_1: {
 																																		ctor: '::',
 																																		_0: {
-																																			process: {name: 'iterating', note: _elm_lang$core$Maybe$Nothing},
-																																			modifiers: {ctor: '[]'}
+																																			process: {name: 'issuing options', note: _elm_lang$core$Maybe$Nothing},
+																																			modifiers: {
+																																				ctor: '::',
+																																				_0: {name: 'to employees', note: _elm_lang$core$Maybe$Nothing},
+																																				_1: {
+																																					ctor: '::',
+																																					_0: {name: 'to founders', note: _elm_lang$core$Maybe$Nothing},
+																																					_1: {
+																																						ctor: '::',
+																																						_0: {name: 'to advisors', note: _elm_lang$core$Maybe$Nothing},
+																																						_1: {ctor: '[]'}
+																																					}
+																																				}
+																																			}
 																																		},
 																																		_1: {
 																																			ctor: '::',
 																																			_0: {
-																																				process: {name: 'joining an accelerator', note: _elm_lang$core$Maybe$Nothing},
+																																				process: {name: 'issuing shares', note: _elm_lang$core$Maybe$Nothing},
 																																				modifiers: {
 																																					ctor: '::',
-																																					_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
+																																					_0: {name: 'initial', note: _elm_lang$core$Maybe$Nothing},
 																																					_1: {
 																																						ctor: '::',
-																																						_0: {name: 'ERA', note: _elm_lang$core$Maybe$Nothing},
-																																						_1: {
-																																							ctor: '::',
-																																							_0: {name: 'TechStars', note: _elm_lang$core$Maybe$Nothing},
-																																							_1: {ctor: '[]'}
-																																						}
+																																						_0: {
+																																							name: 'for contributions',
+																																							note: _elm_lang$core$Maybe$Just('other than investment')
+																																						},
+																																						_1: {ctor: '[]'}
 																																					}
 																																				}
 																																			},
 																																			_1: {
 																																				ctor: '::',
 																																				_0: {
-																																					process: {name: 'knowing (about)', note: _elm_lang$core$Maybe$Nothing},
-																																					modifiers: {
-																																						ctor: '::',
-																																						_0: {name: 'nothing', note: _elm_lang$core$Maybe$Nothing},
-																																						_1: {
-																																							ctor: '::',
-																																							_0: {name: 'term sheet norms', note: _elm_lang$core$Maybe$Nothing},
-																																							_1: {
-																																								ctor: '::',
-																																								_0: {name: 'company structure', note: _elm_lang$core$Maybe$Nothing},
-																																								_1: {
-																																									ctor: '::',
-																																									_0: {name: 'hiring', note: _elm_lang$core$Maybe$Nothing},
-																																									_1: {
-																																										ctor: '::',
-																																										_0: {name: 'Saas finances', note: _elm_lang$core$Maybe$Nothing},
-																																										_1: {
-																																											ctor: '::',
-																																											_0: {name: 'board relations', note: _elm_lang$core$Maybe$Nothing},
-																																											_1: {
-																																												ctor: '::',
-																																												_0: {name: 'taxes', note: _elm_lang$core$Maybe$Nothing},
-																																												_1: {
-																																													ctor: '::',
-																																													_0: {name: 'PR', note: _elm_lang$core$Maybe$Nothing},
-																																													_1: {
-																																														ctor: '::',
-																																														_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
-																																														_1: {ctor: '[]'}
-																																													}
-																																												}
-																																											}
-																																										}
-																																									}
-																																								}
-																																							}
-																																						}
-																																					}
+																																					process: {name: 'iterating', note: _elm_lang$core$Maybe$Nothing},
+																																					modifiers: {ctor: '[]'}
 																																				},
 																																				_1: {
 																																					ctor: '::',
 																																					_0: {
-																																						process: {name: 'launching a product', note: _elm_lang$core$Maybe$Nothing},
-																																						modifiers: {ctor: '[]'}
+																																						process: {name: 'joining an accelerator', note: _elm_lang$core$Maybe$Nothing},
+																																						modifiers: {
+																																							ctor: '::',
+																																							_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
+																																							_1: {
+																																								ctor: '::',
+																																								_0: {name: 'ERA', note: _elm_lang$core$Maybe$Nothing},
+																																								_1: {
+																																									ctor: '::',
+																																									_0: {name: 'TechStars', note: _elm_lang$core$Maybe$Nothing},
+																																									_1: {ctor: '[]'}
+																																								}
+																																							}
+																																						}
 																																					},
 																																					_1: {
 																																						ctor: '::',
 																																						_0: {
-																																							process: {name: 'making a decision', note: _elm_lang$core$Maybe$Nothing},
+																																							process: {name: 'knowing (about)', note: _elm_lang$core$Maybe$Nothing},
 																																							modifiers: {
 																																								ctor: '::',
-																																								_0: {name: 'based on complexity', note: _elm_lang$core$Maybe$Nothing},
+																																								_0: {name: 'nothing', note: _elm_lang$core$Maybe$Nothing},
 																																								_1: {
 																																									ctor: '::',
-																																									_0: {name: 'based on common wisdom', note: _elm_lang$core$Maybe$Nothing},
+																																									_0: {name: 'term sheet norms', note: _elm_lang$core$Maybe$Nothing},
 																																									_1: {
 																																										ctor: '::',
-																																										_0: {name: 'based on finances', note: _elm_lang$core$Maybe$Nothing},
+																																										_0: {name: 'company structure', note: _elm_lang$core$Maybe$Nothing},
 																																										_1: {
 																																											ctor: '::',
-																																											_0: {name: 'based on legal obligations', note: _elm_lang$core$Maybe$Nothing},
+																																											_0: {name: 'hiring', note: _elm_lang$core$Maybe$Nothing},
 																																											_1: {
 																																												ctor: '::',
-																																												_0: {name: 'based on taxes', note: _elm_lang$core$Maybe$Nothing},
+																																												_0: {name: 'Saas finances', note: _elm_lang$core$Maybe$Nothing},
 																																												_1: {
 																																													ctor: '::',
-																																													_0: {name: 'about how to classify employees', note: _elm_lang$core$Maybe$Nothing},
-																																													_1: {ctor: '[]'}
+																																													_0: {name: 'board relations', note: _elm_lang$core$Maybe$Nothing},
+																																													_1: {
+																																														ctor: '::',
+																																														_0: {name: 'taxes', note: _elm_lang$core$Maybe$Nothing},
+																																														_1: {
+																																															ctor: '::',
+																																															_0: {name: 'PR', note: _elm_lang$core$Maybe$Nothing},
+																																															_1: {
+																																																ctor: '::',
+																																																_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
+																																																_1: {ctor: '[]'}
+																																															}
+																																														}
+																																													}
 																																												}
 																																											}
 																																										}
@@ -9026,59 +9002,97 @@ var _user$project$Main$allCodes = {
 																																						_1: {
 																																							ctor: '::',
 																																							_0: {
-																																								process: {name: 'making a mistake', note: _elm_lang$core$Maybe$Nothing},
-																																								modifiers: {
-																																									ctor: '::',
-																																									_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
-																																									_1: {
+																																								process: {name: 'launching a product', note: _elm_lang$core$Maybe$Nothing},
+																																								modifiers: {ctor: '[]'}
+																																							},
+																																							_1: {
+																																								ctor: '::',
+																																								_0: {
+																																									process: {name: 'making a decision', note: _elm_lang$core$Maybe$Nothing},
+																																									modifiers: {
 																																										ctor: '::',
-																																										_0: {name: 'hiring', note: _elm_lang$core$Maybe$Nothing},
+																																										_0: {name: 'based on complexity', note: _elm_lang$core$Maybe$Nothing},
 																																										_1: {
 																																											ctor: '::',
-																																											_0: {
-																																												name: 'lawyer',
-																																												note: _elm_lang$core$Maybe$Just('the lawyer is the mistake, not the lawyer made the mistake')
-																																											},
+																																											_0: {name: 'based on common wisdom', note: _elm_lang$core$Maybe$Nothing},
 																																											_1: {
 																																												ctor: '::',
-																																												_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
+																																												_0: {name: 'based on finances', note: _elm_lang$core$Maybe$Nothing},
 																																												_1: {
 																																													ctor: '::',
-																																													_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
+																																													_0: {name: 'based on legal obligations', note: _elm_lang$core$Maybe$Nothing},
 																																													_1: {
 																																														ctor: '::',
-																																														_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
+																																														_0: {name: 'based on taxes', note: _elm_lang$core$Maybe$Nothing},
 																																														_1: {
 																																															ctor: '::',
-																																															_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
+																																															_0: {name: 'about how to classify employees', note: _elm_lang$core$Maybe$Nothing},
+																																															_1: {ctor: '[]'}
+																																														}
+																																													}
+																																												}
+																																											}
+																																										}
+																																									}
+																																								},
+																																								_1: {
+																																									ctor: '::',
+																																									_0: {
+																																										process: {name: 'making a mistake', note: _elm_lang$core$Maybe$Nothing},
+																																										modifiers: {
+																																											ctor: '::',
+																																											_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
+																																											_1: {
+																																												ctor: '::',
+																																												_0: {name: 'hiring', note: _elm_lang$core$Maybe$Nothing},
+																																												_1: {
+																																													ctor: '::',
+																																													_0: {
+																																														name: 'lawyer',
+																																														note: _elm_lang$core$Maybe$Just('the lawyer is the mistake, not the lawyer made the mistake')
+																																													},
+																																													_1: {
+																																														ctor: '::',
+																																														_0: {name: 'accounting', note: _elm_lang$core$Maybe$Nothing},
+																																														_1: {
+																																															ctor: '::',
+																																															_0: {name: 'early', note: _elm_lang$core$Maybe$Nothing},
 																																															_1: {
 																																																ctor: '::',
-																																																_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
+																																																_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
 																																																_1: {
 																																																	ctor: '::',
-																																																	_0: {name: 'personal', note: _elm_lang$core$Maybe$Nothing},
+																																																	_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
 																																																	_1: {
 																																																		ctor: '::',
-																																																		_0: {name: 'vendors', note: _elm_lang$core$Maybe$Nothing},
+																																																		_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
 																																																		_1: {
 																																																			ctor: '::',
-																																																			_0: {
-																																																				name: 'not hiring',
-																																																				note: _elm_lang$core$Maybe$Just('should have hired, but didn\'t')
-																																																			},
+																																																			_0: {name: 'personal', note: _elm_lang$core$Maybe$Nothing},
 																																																			_1: {
 																																																				ctor: '::',
-																																																				_0: {name: 'culture', note: _elm_lang$core$Maybe$Nothing},
+																																																				_0: {name: 'vendors', note: _elm_lang$core$Maybe$Nothing},
 																																																				_1: {
 																																																					ctor: '::',
-																																																					_0: {name: 'cap table management', note: _elm_lang$core$Maybe$Nothing},
+																																																					_0: {
+																																																						name: 'not hiring',
+																																																						note: _elm_lang$core$Maybe$Just('should have hired, but didn\'t')
+																																																					},
 																																																					_1: {
 																																																						ctor: '::',
-																																																						_0: {name: 'focus', note: _elm_lang$core$Maybe$Nothing},
+																																																						_0: {name: 'culture', note: _elm_lang$core$Maybe$Nothing},
 																																																						_1: {
 																																																							ctor: '::',
-																																																							_0: {name: 'growth strategy', note: _elm_lang$core$Maybe$Nothing},
-																																																							_1: {ctor: '[]'}
+																																																							_0: {name: 'cap table management', note: _elm_lang$core$Maybe$Nothing},
+																																																							_1: {
+																																																								ctor: '::',
+																																																								_0: {name: 'focus', note: _elm_lang$core$Maybe$Nothing},
+																																																								_1: {
+																																																									ctor: '::',
+																																																									_0: {name: 'growth strategy', note: _elm_lang$core$Maybe$Nothing},
+																																																									_1: {ctor: '[]'}
+																																																								}
+																																																							}
 																																																						}
 																																																					}
 																																																				}
@@ -9092,284 +9106,254 @@ var _user$project$Main$allCodes = {
 																																												}
 																																											}
 																																										}
-																																									}
-																																								}
-																																							},
-																																							_1: {
-																																								ctor: '::',
-																																								_0: {
-																																									process: {name: 'managing cash flow', note: _elm_lang$core$Maybe$Nothing},
-																																									modifiers: {ctor: '[]'}
-																																								},
-																																								_1: {
-																																									ctor: '::',
-																																									_0: {
-																																										process: {name: 'managing inventory', note: _elm_lang$core$Maybe$Nothing},
-																																										modifiers: {
-																																											ctor: '::',
-																																											_0: {name: 'hard', note: _elm_lang$core$Maybe$Nothing},
-																																											_1: {ctor: '[]'}
-																																										}
 																																									},
 																																									_1: {
 																																										ctor: '::',
 																																										_0: {
-																																											process: {name: 'meeting/finding co-founder(s)', note: _elm_lang$core$Maybe$Nothing},
-																																											modifiers: {
-																																												ctor: '::',
-																																												_0: {name: 'late', note: _elm_lang$core$Maybe$Nothing},
-																																												_1: {
-																																													ctor: '::',
-																																													_0: {name: 'for fundraising', note: _elm_lang$core$Maybe$Nothing},
-																																													_1: {ctor: '[]'}
-																																												}
-																																											}
+																																											process: {name: 'managing cash flow', note: _elm_lang$core$Maybe$Nothing},
+																																											modifiers: {ctor: '[]'}
 																																										},
 																																										_1: {
 																																											ctor: '::',
 																																											_0: {
-																																												process: {name: 'needing advice', note: _elm_lang$core$Maybe$Nothing},
-																																												modifiers: {ctor: '[]'}
+																																												process: {name: 'managing inventory', note: _elm_lang$core$Maybe$Nothing},
+																																												modifiers: {
+																																													ctor: '::',
+																																													_0: {name: 'hard', note: _elm_lang$core$Maybe$Nothing},
+																																													_1: {ctor: '[]'}
+																																												}
 																																											},
 																																											_1: {
 																																												ctor: '::',
 																																												_0: {
-																																													process: {name: 'needing a bank account', note: _elm_lang$core$Maybe$Nothing},
-																																													modifiers: {ctor: '[]'}
+																																													process: {name: 'meeting/finding co-founder(s)', note: _elm_lang$core$Maybe$Nothing},
+																																													modifiers: {
+																																														ctor: '::',
+																																														_0: {name: 'late', note: _elm_lang$core$Maybe$Nothing},
+																																														_1: {
+																																															ctor: '::',
+																																															_0: {name: 'for fundraising', note: _elm_lang$core$Maybe$Nothing},
+																																															_1: {ctor: '[]'}
+																																														}
+																																													}
 																																												},
 																																												_1: {
 																																													ctor: '::',
 																																													_0: {
-																																														process: {name: 'needing EIN', note: _elm_lang$core$Maybe$Nothing},
+																																														process: {name: 'needing advice', note: _elm_lang$core$Maybe$Nothing},
 																																														modifiers: {ctor: '[]'}
 																																													},
 																																													_1: {
 																																														ctor: '::',
 																																														_0: {
-																																															process: {name: 'needing expense tracking', note: _elm_lang$core$Maybe$Nothing},
+																																															process: {name: 'needing a bank account', note: _elm_lang$core$Maybe$Nothing},
 																																															modifiers: {ctor: '[]'}
 																																														},
 																																														_1: {
 																																															ctor: '::',
 																																															_0: {
-																																																process: {name: 'needing a lawyer', note: _elm_lang$core$Maybe$Nothing},
+																																																process: {name: 'needing EIN', note: _elm_lang$core$Maybe$Nothing},
 																																																modifiers: {ctor: '[]'}
 																																															},
 																																															_1: {
 																																																ctor: '::',
 																																																_0: {
-																																																	process: {name: 'needing office space', note: _elm_lang$core$Maybe$Nothing},
-																																																	modifiers: {
-																																																		ctor: '::',
-																																																		_0: {name: 'expanding', note: _elm_lang$core$Maybe$Nothing},
-																																																		_1: {
-																																																			ctor: '::',
-																																																			_0: {name: 'lab space', note: _elm_lang$core$Maybe$Nothing},
-																																																			_1: {
-																																																				ctor: '::',
-																																																				_0: {name: 'manufacturing', note: _elm_lang$core$Maybe$Nothing},
-																																																				_1: {
-																																																					ctor: '::',
-																																																					_0: {name: 'location', note: _elm_lang$core$Maybe$Nothing},
-																																																					_1: {ctor: '[]'}
-																																																				}
-																																																			}
-																																																		}
-																																																	}
+																																																	process: {name: 'needing expense tracking', note: _elm_lang$core$Maybe$Nothing},
+																																																	modifiers: {ctor: '[]'}
 																																																},
 																																																_1: {
 																																																	ctor: '::',
 																																																	_0: {
-																																																		process: {name: 'needing Stripe', note: _elm_lang$core$Maybe$Nothing},
+																																																		process: {name: 'needing a lawyer', note: _elm_lang$core$Maybe$Nothing},
 																																																		modifiers: {ctor: '[]'}
 																																																	},
 																																																	_1: {
 																																																		ctor: '::',
 																																																		_0: {
-																																																			process: {
-																																																				name: 'needing a service',
-																																																				note: _elm_lang$core$Maybe$Just('as in, any service if not specified')
-																																																			},
-																																																			modifiers: {ctor: '[]'}
+																																																			process: {name: 'needing office space', note: _elm_lang$core$Maybe$Nothing},
+																																																			modifiers: {
+																																																				ctor: '::',
+																																																				_0: {name: 'expanding', note: _elm_lang$core$Maybe$Nothing},
+																																																				_1: {
+																																																					ctor: '::',
+																																																					_0: {name: 'lab space', note: _elm_lang$core$Maybe$Nothing},
+																																																					_1: {
+																																																						ctor: '::',
+																																																						_0: {name: 'manufacturing', note: _elm_lang$core$Maybe$Nothing},
+																																																						_1: {
+																																																							ctor: '::',
+																																																							_0: {name: 'location', note: _elm_lang$core$Maybe$Nothing},
+																																																							_1: {ctor: '[]'}
+																																																						}
+																																																					}
+																																																				}
+																																																			}
 																																																		},
 																																																		_1: {
 																																																			ctor: '::',
 																																																			_0: {
-																																																				process: {name: 'negotiating', note: _elm_lang$core$Maybe$Nothing},
+																																																				process: {name: 'needing Stripe', note: _elm_lang$core$Maybe$Nothing},
 																																																				modifiers: {ctor: '[]'}
 																																																			},
 																																																			_1: {
 																																																				ctor: '::',
 																																																				_0: {
 																																																					process: {
-																																																						name: 'not tracking expenses',
-																																																						note: _elm_lang$core$Maybe$Just('ie. not doing anything')
+																																																						name: 'needing a service',
+																																																						note: _elm_lang$core$Maybe$Just('as in, any service if not specified')
 																																																					},
 																																																					modifiers: {ctor: '[]'}
 																																																				},
 																																																				_1: {
 																																																					ctor: '::',
 																																																					_0: {
-																																																						process: {name: 'offering benefits', note: _elm_lang$core$Maybe$Nothing},
+																																																						process: {name: 'negotiating', note: _elm_lang$core$Maybe$Nothing},
 																																																						modifiers: {ctor: '[]'}
 																																																					},
 																																																					_1: {
 																																																						ctor: '::',
 																																																						_0: {
-																																																							process: {name: 'opening a bank account', note: _elm_lang$core$Maybe$Nothing},
+																																																							process: {
+																																																								name: 'not tracking expenses',
+																																																								note: _elm_lang$core$Maybe$Just('ie. not doing anything')
+																																																							},
 																																																							modifiers: {ctor: '[]'}
 																																																						},
 																																																						_1: {
 																																																							ctor: '::',
 																																																							_0: {
-																																																								process: {name: 'outsourcing', note: _elm_lang$core$Maybe$Nothing},
-																																																								modifiers: {
-																																																									ctor: '::',
-																																																									_0: {name: 'CFO', note: _elm_lang$core$Maybe$Nothing},
-																																																									_1: {
-																																																										ctor: '::',
-																																																										_0: {name: 'bookkeeper', note: _elm_lang$core$Maybe$Nothing},
-																																																										_1: {
-																																																											ctor: '::',
-																																																											_0: {name: 'finances', note: _elm_lang$core$Maybe$Nothing},
-																																																											_1: {
-																																																												ctor: '::',
-																																																												_0: {name: 'free', note: _elm_lang$core$Maybe$Nothing},
-																																																												_1: {
-																																																													ctor: '::',
-																																																													_0: {name: 'because of money', note: _elm_lang$core$Maybe$Nothing},
-																																																													_1: {ctor: '[]'}
-																																																												}
-																																																											}
-																																																										}
-																																																									}
-																																																								}
+																																																								process: {name: 'offering benefits', note: _elm_lang$core$Maybe$Nothing},
+																																																								modifiers: {ctor: '[]'}
 																																																							},
 																																																							_1: {
 																																																								ctor: '::',
 																																																								_0: {
-																																																									process: {name: 'paying people', note: _elm_lang$core$Maybe$Nothing},
-																																																									modifiers: {
-																																																										ctor: '::',
-																																																										_0: {name: 'employees', note: _elm_lang$core$Maybe$Nothing},
-																																																										_1: {
-																																																											ctor: '::',
-																																																											_0: {name: 'founders/selves', note: _elm_lang$core$Maybe$Nothing},
-																																																											_1: {
-																																																												ctor: '::',
-																																																												_0: {name: 'under-market', note: _elm_lang$core$Maybe$Nothing},
-																																																												_1: {ctor: '[]'}
-																																																											}
-																																																										}
-																																																									}
+																																																									process: {name: 'opening a bank account', note: _elm_lang$core$Maybe$Nothing},
+																																																									modifiers: {ctor: '[]'}
 																																																								},
 																																																								_1: {
 																																																									ctor: '::',
 																																																									_0: {
-																																																										process: {name: 'pivoting', note: _elm_lang$core$Maybe$Nothing},
-																																																										modifiers: {ctor: '[]'}
+																																																										process: {name: 'outsourcing', note: _elm_lang$core$Maybe$Nothing},
+																																																										modifiers: {
+																																																											ctor: '::',
+																																																											_0: {name: 'CFO', note: _elm_lang$core$Maybe$Nothing},
+																																																											_1: {
+																																																												ctor: '::',
+																																																												_0: {name: 'bookkeeper', note: _elm_lang$core$Maybe$Nothing},
+																																																												_1: {
+																																																													ctor: '::',
+																																																													_0: {name: 'finances', note: _elm_lang$core$Maybe$Nothing},
+																																																													_1: {
+																																																														ctor: '::',
+																																																														_0: {name: 'free', note: _elm_lang$core$Maybe$Nothing},
+																																																														_1: {
+																																																															ctor: '::',
+																																																															_0: {name: 'because of money', note: _elm_lang$core$Maybe$Nothing},
+																																																															_1: {ctor: '[]'}
+																																																														}
+																																																													}
+																																																												}
+																																																											}
+																																																										}
 																																																									},
 																																																									_1: {
 																																																										ctor: '::',
 																																																										_0: {
-																																																											process: {name: 'preparing for due diligence', note: _elm_lang$core$Maybe$Nothing},
-																																																											modifiers: {ctor: '[]'}
+																																																											process: {name: 'paying people', note: _elm_lang$core$Maybe$Nothing},
+																																																											modifiers: {
+																																																												ctor: '::',
+																																																												_0: {name: 'employees', note: _elm_lang$core$Maybe$Nothing},
+																																																												_1: {
+																																																													ctor: '::',
+																																																													_0: {name: 'founders/selves', note: _elm_lang$core$Maybe$Nothing},
+																																																													_1: {
+																																																														ctor: '::',
+																																																														_0: {name: 'under-market', note: _elm_lang$core$Maybe$Nothing},
+																																																														_1: {ctor: '[]'}
+																																																													}
+																																																												}
+																																																											}
 																																																										},
 																																																										_1: {
 																																																											ctor: '::',
 																																																											_0: {
-																																																												process: {name: 'preparing for exit', note: _elm_lang$core$Maybe$Nothing},
+																																																												process: {name: 'pivoting', note: _elm_lang$core$Maybe$Nothing},
 																																																												modifiers: {ctor: '[]'}
 																																																											},
 																																																											_1: {
 																																																												ctor: '::',
 																																																												_0: {
-																																																													process: {name: 'researching', note: _elm_lang$core$Maybe$Nothing},
-																																																													modifiers: {
-																																																														ctor: '::',
-																																																														_0: {name: 'industry', note: _elm_lang$core$Maybe$Nothing},
-																																																														_1: {
-																																																															ctor: '::',
-																																																															_0: {name: 'constantly', note: _elm_lang$core$Maybe$Nothing},
-																																																															_1: {ctor: '[]'}
-																																																														}
-																																																													}
+																																																													process: {name: 'preparing for due diligence', note: _elm_lang$core$Maybe$Nothing},
+																																																													modifiers: {ctor: '[]'}
 																																																												},
 																																																												_1: {
 																																																													ctor: '::',
 																																																													_0: {
-																																																														process: {name: 'running lean', note: _elm_lang$core$Maybe$Nothing},
+																																																														process: {name: 'preparing for exit', note: _elm_lang$core$Maybe$Nothing},
 																																																														modifiers: {ctor: '[]'}
 																																																													},
 																																																													_1: {
 																																																														ctor: '::',
 																																																														_0: {
-																																																															process: {
-																																																																name: 'scaling',
-																																																																note: _elm_lang$core$Maybe$Just('external pressure: customers, revenue, etc')
-																																																															},
+																																																															process: {name: 'researching', note: _elm_lang$core$Maybe$Nothing},
 																																																															modifiers: {
 																																																																ctor: '::',
-																																																																_0: {name: 'quickly', note: _elm_lang$core$Maybe$Nothing},
-																																																																_1: {ctor: '[]'}
+																																																																_0: {name: 'industry', note: _elm_lang$core$Maybe$Nothing},
+																																																																_1: {
+																																																																	ctor: '::',
+																																																																	_0: {name: 'constantly', note: _elm_lang$core$Maybe$Nothing},
+																																																																	_1: {ctor: '[]'}
+																																																																}
 																																																															}
 																																																														},
 																																																														_1: {
 																																																															ctor: '::',
 																																																															_0: {
-																																																																process: {name: 'setting up an operating agreement', note: _elm_lang$core$Maybe$Nothing},
+																																																																process: {name: 'running lean', note: _elm_lang$core$Maybe$Nothing},
 																																																																modifiers: {ctor: '[]'}
 																																																															},
 																																																															_1: {
 																																																																ctor: '::',
 																																																																_0: {
-																																																																	process: {name: 'shutting down', note: _elm_lang$core$Maybe$Nothing},
-																																																																	modifiers: {ctor: '[]'}
+																																																																	process: {
+																																																																		name: 'scaling',
+																																																																		note: _elm_lang$core$Maybe$Just('external pressure: customers, revenue, etc')
+																																																																	},
+																																																																	modifiers: {
+																																																																		ctor: '::',
+																																																																		_0: {name: 'quickly', note: _elm_lang$core$Maybe$Nothing},
+																																																																		_1: {ctor: '[]'}
+																																																																	}
 																																																																},
 																																																																_1: {
 																																																																	ctor: '::',
 																																																																	_0: {
-																																																																		process: {name: 'spinning out', note: _elm_lang$core$Maybe$Nothing},
+																																																																		process: {name: 'setting up an operating agreement', note: _elm_lang$core$Maybe$Nothing},
 																																																																		modifiers: {ctor: '[]'}
 																																																																	},
 																																																																	_1: {
 																																																																		ctor: '::',
 																																																																		_0: {
-																																																																			process: {name: 'starting a company', note: _elm_lang$core$Maybe$Nothing},
-																																																																			modifiers: {
-																																																																				ctor: '::',
-																																																																				_0: {name: 'commerce', note: _elm_lang$core$Maybe$Nothing},
-																																																																				_1: {
-																																																																					ctor: '::',
-																																																																					_0: {name: 'repeatedly', note: _elm_lang$core$Maybe$Nothing},
-																																																																					_1: {ctor: '[]'}
-																																																																				}
-																																																																			}
+																																																																			process: {name: 'shutting down', note: _elm_lang$core$Maybe$Nothing},
+																																																																			modifiers: {ctor: '[]'}
 																																																																		},
 																																																																		_1: {
 																																																																			ctor: '::',
 																																																																			_0: {
-																																																																				process: {name: 'starting a project', note: _elm_lang$core$Maybe$Nothing},
-																																																																				modifiers: {
-																																																																					ctor: '::',
-																																																																					_0: {name: 'at an incubator', note: _elm_lang$core$Maybe$Nothing},
-																																																																					_1: {
-																																																																						ctor: '::',
-																																																																						_0: {name: 'again', note: _elm_lang$core$Maybe$Nothing},
-																																																																						_1: {ctor: '[]'}
-																																																																					}
-																																																																				}
+																																																																				process: {name: 'spinning out', note: _elm_lang$core$Maybe$Nothing},
+																																																																				modifiers: {ctor: '[]'}
 																																																																			},
 																																																																			_1: {
 																																																																				ctor: '::',
 																																																																				_0: {
-																																																																					process: {name: 'switching expense tracking', note: _elm_lang$core$Maybe$Nothing},
+																																																																					process: {name: 'starting a company', note: _elm_lang$core$Maybe$Nothing},
 																																																																					modifiers: {
 																																																																						ctor: '::',
-																																																																						_0: {name: 'to Propellor', note: _elm_lang$core$Maybe$Nothing},
+																																																																						_0: {name: 'commerce', note: _elm_lang$core$Maybe$Nothing},
 																																																																						_1: {
 																																																																							ctor: '::',
-																																																																							_0: {name: 'to a (different) accountant', note: _elm_lang$core$Maybe$Nothing},
+																																																																							_0: {name: 'repeatedly', note: _elm_lang$core$Maybe$Nothing},
 																																																																							_1: {ctor: '[]'}
 																																																																						}
 																																																																					}
@@ -9377,185 +9361,177 @@ var _user$project$Main$allCodes = {
 																																																																				_1: {
 																																																																					ctor: '::',
 																																																																					_0: {
-																																																																						process: {name: 'switching marketing tools', note: _elm_lang$core$Maybe$Nothing},
+																																																																						process: {name: 'starting a project', note: _elm_lang$core$Maybe$Nothing},
 																																																																						modifiers: {
 																																																																							ctor: '::',
-																																																																							_0: {name: 'to Hubspot', note: _elm_lang$core$Maybe$Nothing},
-																																																																							_1: {ctor: '[]'}
+																																																																							_0: {name: 'at an incubator', note: _elm_lang$core$Maybe$Nothing},
+																																																																							_1: {
+																																																																								ctor: '::',
+																																																																								_0: {name: 'again', note: _elm_lang$core$Maybe$Nothing},
+																																																																								_1: {ctor: '[]'}
+																																																																							}
 																																																																						}
 																																																																					},
 																																																																					_1: {
 																																																																						ctor: '::',
 																																																																						_0: {
-																																																																							process: {name: 'switching HR provider', note: _elm_lang$core$Maybe$Nothing},
+																																																																							process: {name: 'switching expense tracking', note: _elm_lang$core$Maybe$Nothing},
 																																																																							modifiers: {
 																																																																								ctor: '::',
-																																																																								_0: {name: 'to Trinet', note: _elm_lang$core$Maybe$Nothing},
-																																																																								_1: {ctor: '[]'}
+																																																																								_0: {name: 'to Propellor', note: _elm_lang$core$Maybe$Nothing},
+																																																																								_1: {
+																																																																									ctor: '::',
+																																																																									_0: {name: 'to a (different) accountant', note: _elm_lang$core$Maybe$Nothing},
+																																																																									_1: {ctor: '[]'}
+																																																																								}
 																																																																							}
 																																																																						},
 																																																																						_1: {
 																																																																							ctor: '::',
 																																																																							_0: {
-																																																																								process: {name: 'talking to founders', note: _elm_lang$core$Maybe$Nothing},
-																																																																								modifiers: {ctor: '[]'}
+																																																																								process: {name: 'switching marketing tools', note: _elm_lang$core$Maybe$Nothing},
+																																																																								modifiers: {
+																																																																									ctor: '::',
+																																																																									_0: {name: 'to Hubspot', note: _elm_lang$core$Maybe$Nothing},
+																																																																									_1: {ctor: '[]'}
+																																																																								}
 																																																																							},
 																																																																							_1: {
 																																																																								ctor: '::',
 																																																																								_0: {
-																																																																									process: {name: 'testing', note: _elm_lang$core$Maybe$Nothing},
+																																																																									process: {name: 'switching HR provider', note: _elm_lang$core$Maybe$Nothing},
 																																																																									modifiers: {
 																																																																										ctor: '::',
-																																																																										_0: {name: 'MVP', note: _elm_lang$core$Maybe$Nothing},
+																																																																										_0: {name: 'to Trinet', note: _elm_lang$core$Maybe$Nothing},
 																																																																										_1: {ctor: '[]'}
 																																																																									}
 																																																																								},
 																																																																								_1: {
 																																																																									ctor: '::',
 																																																																									_0: {
-																																																																										process: {name: 'quitting your job', note: _elm_lang$core$Maybe$Nothing},
-																																																																										modifiers: {
-																																																																											ctor: '::',
-																																																																											_0: {name: 'instability', note: _elm_lang$core$Maybe$Nothing},
-																																																																											_1: {
-																																																																												ctor: '::',
-																																																																												_0: {name: 'with a backup plan', note: _elm_lang$core$Maybe$Nothing},
-																																																																												_1: {ctor: '[]'}
-																																																																											}
-																																																																										}
+																																																																										process: {name: 'talking to founders', note: _elm_lang$core$Maybe$Nothing},
+																																																																										modifiers: {ctor: '[]'}
 																																																																									},
 																																																																									_1: {
 																																																																										ctor: '::',
 																																																																										_0: {
-																																																																											process: {name: 'using blogs ', note: _elm_lang$core$Maybe$Nothing},
+																																																																											process: {name: 'testing', note: _elm_lang$core$Maybe$Nothing},
 																																																																											modifiers: {
 																																																																												ctor: '::',
-																																																																												_0: {name: 'written by VCs', note: _elm_lang$core$Maybe$Nothing},
-																																																																												_1: {
-																																																																													ctor: '::',
-																																																																													_0: {name: 'conflicting info', note: _elm_lang$core$Maybe$Nothing},
-																																																																													_1: {ctor: '[]'}
-																																																																												}
+																																																																												_0: {name: 'MVP', note: _elm_lang$core$Maybe$Nothing},
+																																																																												_1: {ctor: '[]'}
 																																																																											}
 																																																																										},
 																																																																										_1: {
 																																																																											ctor: '::',
 																																																																											_0: {
-																																																																												process: {name: 'using cap table management', note: _elm_lang$core$Maybe$Nothing},
+																																																																												process: {name: 'quitting your job', note: _elm_lang$core$Maybe$Nothing},
 																																																																												modifiers: {
 																																																																													ctor: '::',
-																																																																													_0: {name: 'DIY', note: _elm_lang$core$Maybe$Nothing},
+																																																																													_0: {name: 'instability', note: _elm_lang$core$Maybe$Nothing},
 																																																																													_1: {
 																																																																														ctor: '::',
-																																																																														_0: {name: 'helpful', note: _elm_lang$core$Maybe$Nothing},
-																																																																														_1: {
-																																																																															ctor: '::',
-																																																																															_0: {name: 'good record-keeping', note: _elm_lang$core$Maybe$Nothing},
-																																																																															_1: {ctor: '[]'}
-																																																																														}
+																																																																														_0: {name: 'with a backup plan', note: _elm_lang$core$Maybe$Nothing},
+																																																																														_1: {ctor: '[]'}
 																																																																													}
 																																																																												}
 																																																																											},
 																																																																											_1: {
 																																																																												ctor: '::',
 																																																																												_0: {
-																																																																													process: {name: 'using expense tracking', note: _elm_lang$core$Maybe$Nothing},
+																																																																													process: {name: 'using blogs ', note: _elm_lang$core$Maybe$Nothing},
 																																																																													modifiers: {
 																																																																														ctor: '::',
-																																																																														_0: {
-																																																																															name: 'DIY',
-																																																																															note: _elm_lang$core$Maybe$Just('ie. proactively tracking expenses but without paid software/help')
-																																																																														},
+																																																																														_0: {name: 'written by VCs', note: _elm_lang$core$Maybe$Nothing},
 																																																																														_1: {
 																																																																															ctor: '::',
-																																																																															_0: {name: 'Propellor', note: _elm_lang$core$Maybe$Nothing},
-																																																																															_1: {
-																																																																																ctor: '::',
-																																																																																_0: {name: 'Quickbooks Online', note: _elm_lang$core$Maybe$Nothing},
-																																																																																_1: {ctor: '[]'}
-																																																																															}
+																																																																															_0: {name: 'conflicting info', note: _elm_lang$core$Maybe$Nothing},
+																																																																															_1: {ctor: '[]'}
 																																																																														}
 																																																																													}
 																																																																												},
 																																																																												_1: {
 																																																																													ctor: '::',
 																																																																													_0: {
-																																																																														process: {name: 'using experience', note: _elm_lang$core$Maybe$Nothing},
+																																																																														process: {name: 'using cap table management', note: _elm_lang$core$Maybe$Nothing},
 																																																																														modifiers: {
 																																																																															ctor: '::',
-																																																																															_0: {name: 'from business school', note: _elm_lang$core$Maybe$Nothing},
-																																																																															_1: {ctor: '[]'}
+																																																																															_0: {name: 'DIY', note: _elm_lang$core$Maybe$Nothing},
+																																																																															_1: {
+																																																																																ctor: '::',
+																																																																																_0: {name: 'helpful', note: _elm_lang$core$Maybe$Nothing},
+																																																																																_1: {
+																																																																																	ctor: '::',
+																																																																																	_0: {name: 'good record-keeping', note: _elm_lang$core$Maybe$Nothing},
+																																																																																	_1: {ctor: '[]'}
+																																																																																}
+																																																																															}
 																																																																														}
 																																																																													},
 																																																																													_1: {
 																																																																														ctor: '::',
 																																																																														_0: {
-																																																																															process: {name: 'using google', note: _elm_lang$core$Maybe$Nothing},
-																																																																															modifiers: {ctor: '[]'}
+																																																																															process: {name: 'using expense tracking', note: _elm_lang$core$Maybe$Nothing},
+																																																																															modifiers: {
+																																																																																ctor: '::',
+																																																																																_0: {
+																																																																																	name: 'DIY',
+																																																																																	note: _elm_lang$core$Maybe$Just('ie. proactively tracking expenses but without paid software/help')
+																																																																																},
+																																																																																_1: {
+																																																																																	ctor: '::',
+																																																																																	_0: {name: 'Propellor', note: _elm_lang$core$Maybe$Nothing},
+																																																																																	_1: {
+																																																																																		ctor: '::',
+																																																																																		_0: {name: 'Quickbooks Online', note: _elm_lang$core$Maybe$Nothing},
+																																																																																		_1: {ctor: '[]'}
+																																																																																	}
+																																																																																}
+																																																																															}
 																																																																														},
 																																																																														_1: {
 																																																																															ctor: '::',
 																																																																															_0: {
-																																																																																process: {name: 'using hackernews', note: _elm_lang$core$Maybe$Nothing},
-																																																																																modifiers: {ctor: '[]'}
+																																																																																process: {name: 'using experience', note: _elm_lang$core$Maybe$Nothing},
+																																																																																modifiers: {
+																																																																																	ctor: '::',
+																																																																																	_0: {name: 'from business school', note: _elm_lang$core$Maybe$Nothing},
+																																																																																	_1: {ctor: '[]'}
+																																																																																}
 																																																																															},
 																																																																															_1: {
 																																																																																ctor: '::',
 																																																																																_0: {
-																																																																																	process: {name: 'using HR provider', note: _elm_lang$core$Maybe$Nothing},
-																																																																																	modifiers: {
-																																																																																		ctor: '::',
-																																																																																		_0: {name: 'Insperity', note: _elm_lang$core$Maybe$Nothing},
-																																																																																		_1: {
-																																																																																			ctor: '::',
-																																																																																			_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
-																																																																																			_1: {
-																																																																																				ctor: '::',
-																																																																																				_0: {name: 'Gusto', note: _elm_lang$core$Maybe$Nothing},
-																																																																																				_1: {
-																																																																																					ctor: '::',
-																																																																																					_0: {name: 'for payroll', note: _elm_lang$core$Maybe$Nothing},
-																																																																																					_1: {
-																																																																																						ctor: '::',
-																																																																																						_0: {name: 'Paychex', note: _elm_lang$core$Maybe$Nothing},
-																																																																																						_1: {ctor: '[]'}
-																																																																																					}
-																																																																																				}
-																																																																																			}
-																																																																																		}
-																																																																																	}
+																																																																																	process: {name: 'using google', note: _elm_lang$core$Maybe$Nothing},
+																																																																																	modifiers: {ctor: '[]'}
 																																																																																},
 																																																																																_1: {
 																																																																																	ctor: '::',
 																																																																																	_0: {
-																																																																																		process: {name: 'using a lawyer', note: _elm_lang$core$Maybe$Nothing},
-																																																																																		modifiers: {
-																																																																																			ctor: '::',
-																																																																																			_0: {name: 'low quality', note: _elm_lang$core$Maybe$Nothing},
-																																																																																			_1: {
-																																																																																				ctor: '::',
-																																																																																				_0: {name: 'to manage equity', note: _elm_lang$core$Maybe$Nothing},
-																																																																																				_1: {ctor: '[]'}
-																																																																																			}
-																																																																																		}
+																																																																																		process: {name: 'using hackernews', note: _elm_lang$core$Maybe$Nothing},
+																																																																																		modifiers: {ctor: '[]'}
 																																																																																	},
 																																																																																	_1: {
 																																																																																		ctor: '::',
 																																																																																		_0: {
-																																																																																			process: {name: 'using marketing tools', note: _elm_lang$core$Maybe$Nothing},
+																																																																																			process: {name: 'using HR provider', note: _elm_lang$core$Maybe$Nothing},
 																																																																																			modifiers: {
 																																																																																				ctor: '::',
-																																																																																				_0: {name: 'WordPress', note: _elm_lang$core$Maybe$Nothing},
+																																																																																				_0: {name: 'Insperity', note: _elm_lang$core$Maybe$Nothing},
 																																																																																				_1: {
 																																																																																					ctor: '::',
-																																																																																					_0: {name: 'Salesforce', note: _elm_lang$core$Maybe$Nothing},
+																																																																																					_0: {name: 'PEO', note: _elm_lang$core$Maybe$Nothing},
 																																																																																					_1: {
 																																																																																						ctor: '::',
-																																																																																						_0: {name: 'Hubspot', note: _elm_lang$core$Maybe$Nothing},
+																																																																																						_0: {name: 'Gusto', note: _elm_lang$core$Maybe$Nothing},
 																																																																																						_1: {
 																																																																																							ctor: '::',
-																																																																																							_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
-																																																																																							_1: {ctor: '[]'}
+																																																																																							_0: {name: 'for payroll', note: _elm_lang$core$Maybe$Nothing},
+																																																																																							_1: {
+																																																																																								ctor: '::',
+																																																																																								_0: {name: 'Paychex', note: _elm_lang$core$Maybe$Nothing},
+																																																																																								_1: {ctor: '[]'}
+																																																																																							}
 																																																																																						}
 																																																																																					}
 																																																																																				}
@@ -9564,44 +9540,82 @@ var _user$project$Main$allCodes = {
 																																																																																		_1: {
 																																																																																			ctor: '::',
 																																																																																			_0: {
-																																																																																				process: {
-																																																																																					name: 'using network',
-																																																																																					note: _elm_lang$core$Maybe$Just('ie. the means')
-																																																																																				},
+																																																																																				process: {name: 'using a lawyer', note: _elm_lang$core$Maybe$Nothing},
 																																																																																				modifiers: {
 																																																																																					ctor: '::',
-																																																																																					_0: {name: 'school', note: _elm_lang$core$Maybe$Nothing},
+																																																																																					_0: {name: 'low quality', note: _elm_lang$core$Maybe$Nothing},
 																																																																																					_1: {
 																																																																																						ctor: '::',
-																																																																																						_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
+																																																																																						_0: {name: 'to manage equity', note: _elm_lang$core$Maybe$Nothing},
+																																																																																						_1: {ctor: '[]'}
+																																																																																					}
+																																																																																				}
+																																																																																			},
+																																																																																			_1: {
+																																																																																				ctor: '::',
+																																																																																				_0: {
+																																																																																					process: {name: 'using marketing tools', note: _elm_lang$core$Maybe$Nothing},
+																																																																																					modifiers: {
+																																																																																						ctor: '::',
+																																																																																						_0: {name: 'WordPress', note: _elm_lang$core$Maybe$Nothing},
 																																																																																						_1: {
 																																																																																							ctor: '::',
-																																																																																							_0: {name: 'accelerator', note: _elm_lang$core$Maybe$Nothing},
+																																																																																							_0: {name: 'Salesforce', note: _elm_lang$core$Maybe$Nothing},
 																																																																																							_1: {
 																																																																																								ctor: '::',
-																																																																																								_0: {name: 'for testing', note: _elm_lang$core$Maybe$Nothing},
+																																																																																								_0: {name: 'Hubspot', note: _elm_lang$core$Maybe$Nothing},
 																																																																																								_1: {
 																																																																																									ctor: '::',
-																																																																																									_0: {name: 'for validation', note: _elm_lang$core$Maybe$Nothing},
+																																																																																									_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
+																																																																																									_1: {ctor: '[]'}
+																																																																																								}
+																																																																																							}
+																																																																																						}
+																																																																																					}
+																																																																																				},
+																																																																																				_1: {
+																																																																																					ctor: '::',
+																																																																																					_0: {
+																																																																																						process: {
+																																																																																							name: 'using network',
+																																																																																							note: _elm_lang$core$Maybe$Just('ie. the means')
+																																																																																						},
+																																																																																						modifiers: {
+																																																																																							ctor: '::',
+																																																																																							_0: {name: 'school', note: _elm_lang$core$Maybe$Nothing},
+																																																																																							_1: {
+																																																																																								ctor: '::',
+																																																																																								_0: {name: 'legal', note: _elm_lang$core$Maybe$Nothing},
+																																																																																								_1: {
+																																																																																									ctor: '::',
+																																																																																									_0: {name: 'accelerator', note: _elm_lang$core$Maybe$Nothing},
 																																																																																									_1: {
 																																																																																										ctor: '::',
-																																																																																										_0: {name: 'investors', note: _elm_lang$core$Maybe$Nothing},
+																																																																																										_0: {name: 'for testing', note: _elm_lang$core$Maybe$Nothing},
 																																																																																										_1: {
 																																																																																											ctor: '::',
-																																																																																											_0: {name: 'prior teammates', note: _elm_lang$core$Maybe$Nothing},
+																																																																																											_0: {name: 'for validation', note: _elm_lang$core$Maybe$Nothing},
 																																																																																											_1: {
 																																																																																												ctor: '::',
-																																																																																												_0: {name: 'for resources', note: _elm_lang$core$Maybe$Nothing},
+																																																																																												_0: {name: 'investors', note: _elm_lang$core$Maybe$Nothing},
 																																																																																												_1: {
 																																																																																													ctor: '::',
-																																																																																													_0: {name: 'for lawyer', note: _elm_lang$core$Maybe$Nothing},
+																																																																																													_0: {name: 'prior teammates', note: _elm_lang$core$Maybe$Nothing},
 																																																																																													_1: {
 																																																																																														ctor: '::',
-																																																																																														_0: {name: 'lawyer\'s', note: _elm_lang$core$Maybe$Nothing},
+																																																																																														_0: {name: 'for resources', note: _elm_lang$core$Maybe$Nothing},
 																																																																																														_1: {
 																																																																																															ctor: '::',
-																																																																																															_0: {name: 'personal/family', note: _elm_lang$core$Maybe$Nothing},
-																																																																																															_1: {ctor: '[]'}
+																																																																																															_0: {name: 'for lawyer', note: _elm_lang$core$Maybe$Nothing},
+																																																																																															_1: {
+																																																																																																ctor: '::',
+																																																																																																_0: {name: 'lawyer\'s', note: _elm_lang$core$Maybe$Nothing},
+																																																																																																_1: {
+																																																																																																	ctor: '::',
+																																																																																																	_0: {name: 'personal/family', note: _elm_lang$core$Maybe$Nothing},
+																																																																																																	_1: {ctor: '[]'}
+																																																																																																}
+																																																																																															}
 																																																																																														}
 																																																																																													}
 																																																																																												}
@@ -9611,98 +9625,98 @@ var _user$project$Main$allCodes = {
 																																																																																								}
 																																																																																							}
 																																																																																						}
-																																																																																					}
-																																																																																				}
-																																																																																			},
-																																																																																			_1: {
-																																																																																				ctor: '::',
-																																																																																				_0: {
-																																																																																					process: {name: 'using a PEO', note: _elm_lang$core$Maybe$Nothing},
-																																																																																					modifiers: {
-																																																																																						ctor: '::',
-																																																																																						_0: {name: 'stuck', note: _elm_lang$core$Maybe$Nothing},
-																																																																																						_1: {
-																																																																																							ctor: '::',
-																																																																																							_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
-																																																																																							_1: {
-																																																																																								ctor: '::',
-																																																																																								_0: {name: 'cobbled together', note: _elm_lang$core$Maybe$Nothing},
-																																																																																								_1: {ctor: '[]'}
-																																																																																							}
-																																																																																						}
-																																																																																					}
-																																																																																				},
-																																																																																				_1: {
-																																																																																					ctor: '::',
-																																																																																					_0: {
-																																																																																						process: {name: 'validating an idea', note: _elm_lang$core$Maybe$Nothing},
-																																																																																						modifiers: {ctor: '[]'}
 																																																																																					},
 																																																																																					_1: {
 																																																																																						ctor: '::',
 																																																																																						_0: {
-																																																																																							process: {name: 'wanting to work on a startup', note: _elm_lang$core$Maybe$Nothing},
+																																																																																							process: {name: 'using a PEO', note: _elm_lang$core$Maybe$Nothing},
 																																																																																							modifiers: {
 																																																																																								ctor: '::',
-																																																																																								_0: {name: 'because of growth potential', note: _elm_lang$core$Maybe$Nothing},
+																																																																																								_0: {name: 'stuck', note: _elm_lang$core$Maybe$Nothing},
 																																																																																								_1: {
 																																																																																									ctor: '::',
-																																																																																									_0: {name: 'small team', note: _elm_lang$core$Maybe$Nothing},
-																																																																																									_1: {ctor: '[]'}
+																																																																																									_0: {name: 'poor fit', note: _elm_lang$core$Maybe$Nothing},
+																																																																																									_1: {
+																																																																																										ctor: '::',
+																																																																																										_0: {name: 'cobbled together', note: _elm_lang$core$Maybe$Nothing},
+																																																																																										_1: {ctor: '[]'}
+																																																																																									}
 																																																																																								}
 																																																																																							}
 																																																																																						},
 																																																																																						_1: {
 																																																																																							ctor: '::',
 																																																																																							_0: {
-																																																																																								process: {name: 'wasting money', note: _elm_lang$core$Maybe$Nothing},
-																																																																																								modifiers: {
-																																																																																									ctor: '::',
-																																																																																									_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
-																																																																																									_1: {
-																																																																																										ctor: '::',
-																																																																																										_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
-																																																																																										_1: {ctor: '[]'}
-																																																																																									}
-																																																																																								}
+																																																																																								process: {name: 'validating an idea', note: _elm_lang$core$Maybe$Nothing},
+																																																																																								modifiers: {ctor: '[]'}
 																																																																																							},
 																																																																																							_1: {
 																																																																																								ctor: '::',
 																																																																																								_0: {
-																																																																																									process: {name: 'wasting time', note: _elm_lang$core$Maybe$Nothing},
-																																																																																									modifiers: {ctor: '[]'}
+																																																																																									process: {name: 'wanting to work on a startup', note: _elm_lang$core$Maybe$Nothing},
+																																																																																									modifiers: {
+																																																																																										ctor: '::',
+																																																																																										_0: {name: 'because of growth potential', note: _elm_lang$core$Maybe$Nothing},
+																																																																																										_1: {
+																																																																																											ctor: '::',
+																																																																																											_0: {name: 'small team', note: _elm_lang$core$Maybe$Nothing},
+																																																																																											_1: {ctor: '[]'}
+																																																																																										}
+																																																																																									}
 																																																																																								},
 																																																																																								_1: {
 																																																																																									ctor: '::',
 																																																																																									_0: {
-																																																																																										process: {name: 'winning an award', note: _elm_lang$core$Maybe$Nothing},
-																																																																																										modifiers: {ctor: '[]'}
+																																																																																										process: {name: 'wasting money', note: _elm_lang$core$Maybe$Nothing},
+																																																																																										modifiers: {
+																																																																																											ctor: '::',
+																																																																																											_0: {name: 'LLC', note: _elm_lang$core$Maybe$Nothing},
+																																																																																											_1: {
+																																																																																												ctor: '::',
+																																																																																												_0: {name: 'expensive', note: _elm_lang$core$Maybe$Nothing},
+																																																																																												_1: {ctor: '[]'}
+																																																																																											}
+																																																																																										}
 																																																																																									},
 																																																																																									_1: {
 																																																																																										ctor: '::',
 																																																																																										_0: {
-																																																																																											process: {name: 'working at a big company', note: _elm_lang$core$Maybe$Nothing},
-																																																																																											modifiers: {
-																																																																																												ctor: '::',
-																																																																																												_0: {name: 'Google', note: _elm_lang$core$Maybe$Nothing},
-																																																																																												_1: {ctor: '[]'}
-																																																																																											}
+																																																																																											process: {name: 'wasting time', note: _elm_lang$core$Maybe$Nothing},
+																																																																																											modifiers: {ctor: '[]'}
 																																																																																										},
 																																																																																										_1: {
 																																																																																											ctor: '::',
 																																																																																											_0: {
-																																																																																												process: {name: 'working on a project', note: _elm_lang$core$Maybe$Nothing},
-																																																																																												modifiers: {
-																																																																																													ctor: '::',
-																																																																																													_0: {name: 'part-time/nights and weekends', note: _elm_lang$core$Maybe$Nothing},
-																																																																																													_1: {
+																																																																																												process: {name: 'winning an award', note: _elm_lang$core$Maybe$Nothing},
+																																																																																												modifiers: {ctor: '[]'}
+																																																																																											},
+																																																																																											_1: {
+																																																																																												ctor: '::',
+																																																																																												_0: {
+																																																																																													process: {name: 'working at a big company', note: _elm_lang$core$Maybe$Nothing},
+																																																																																													modifiers: {
 																																																																																														ctor: '::',
-																																																																																														_0: {name: 'at an incubator', note: _elm_lang$core$Maybe$Nothing},
+																																																																																														_0: {name: 'Google', note: _elm_lang$core$Maybe$Nothing},
 																																																																																														_1: {ctor: '[]'}
 																																																																																													}
+																																																																																												},
+																																																																																												_1: {
+																																																																																													ctor: '::',
+																																																																																													_0: {
+																																																																																														process: {name: 'working on a project', note: _elm_lang$core$Maybe$Nothing},
+																																																																																														modifiers: {
+																																																																																															ctor: '::',
+																																																																																															_0: {name: 'part-time/nights and weekends', note: _elm_lang$core$Maybe$Nothing},
+																																																																																															_1: {
+																																																																																																ctor: '::',
+																																																																																																_0: {name: 'at an incubator', note: _elm_lang$core$Maybe$Nothing},
+																																																																																																_1: {ctor: '[]'}
+																																																																																															}
+																																																																																														}
+																																																																																													},
+																																																																																													_1: {ctor: '[]'}
 																																																																																												}
-																																																																																											},
-																																																																																											_1: {ctor: '[]'}
+																																																																																											}
 																																																																																										}
 																																																																																									}
 																																																																																								}

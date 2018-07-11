@@ -172,7 +172,7 @@ allCodes =
     , modifiers =
         [ { name = "being able to do it", note = Nothing }
         , { name = "good fit", note = Nothing }
-        , { name = "expense tracking", note = Nothing }
+        , { name = "expense tracking", note = Just "use when they don't mention their tools. for example, 'i was holding myself accountable.' cf. using expense tracking + diy" }
         ]
     }
   , { process = { name = "exiting", note = Nothing }
@@ -184,7 +184,9 @@ allCodes =
     , modifiers = []
     }
   , { process = { name = "finding office space", note = Nothing }
-    , modifiers = []
+    , modifiers = 
+      [ { name = "co-working", note = Nothing }
+      ]
     }
   , { process = { name = "finishing school", note = Nothing }
     , modifiers = []
@@ -302,7 +304,7 @@ allCodes =
   , { process = { name = "helping network", note = Nothing }
     , modifiers = []
     }
-  , { process = { name = "hiring contractors", note = Nothing }
+  , { process = { name = "hiring contractors", note = Just "this use of 'contractors' refers to specific people, as in bringing on a developer to the team but not paying them as an employee. if the 'contractor' is a firm, it's probably 'outsourcing' instead." }
     , modifiers =
         [ { name = "designers", note = Nothing }
         , { name = "developers", note = Nothing }
@@ -366,9 +368,10 @@ allCodes =
   , { process = { name = "iterating", note = Nothing }
     , modifiers = []
     }
-  , { process = { name = "joining an accelerator", note = Nothing }
+  , { process = { name = "joining an accelerator", note = Just "please add a subcategory tag for the name of the accelerator, if known" }
     , modifiers =
-        [ { name = "early", note = Nothing }
+        [ { name = "AREA", note = Nothing }
+        , { name = "early", note = Nothing }
         , { name = "ERA", note = Nothing }
         , { name = "TechStars", note = Nothing }
         ]
@@ -454,7 +457,8 @@ allCodes =
     }
   , { process = { name = "needing office space", note = Nothing }
     , modifiers =
-        [ { name = "expanding", note = Nothing }
+        [ { name = "co-working", note = Nothing }
+        , { "expanding", note = Nothing }
         , { name = "lab space", note = Nothing }
         , { name = "manufacturing", note = Nothing }
         , { name = "location", note = Nothing }
@@ -596,7 +600,7 @@ allCodes =
     }
   , { process = { name = "using expense tracking", note = Nothing}
     , modifiers =
-        [ { name = "DIY", note = Just "ie. proactively tracking expenses but without paid software/help" }
+        [ { name = "DIY", note = Just "ie. proactively tracking expenses but without paid software/help. use only when they mention how they were tracking. cf. diy + expense tracking" }
         , { name = "Propellor", note = Nothing }
         , { name = "Quickbooks Online", note = Nothing }
         ]
@@ -656,7 +660,7 @@ allCodes =
         , { name = "cobbled together", note = Nothing }
         ]
     }
-  , { process = { name = "validating an idea", note = Nothing}
+  , { process = { name = "validating an idea", note = Just "use when they have successfully validated an idea. if they disprove an idea, that's 'not validating an idea'" }
     , modifiers = []
     }
   , { process = { name = "wanting to work on a startup", note = Nothing}

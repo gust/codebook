@@ -191,6 +191,9 @@ allCodes =
   , { process = { name = "finishing school", note = Nothing }
     , modifiers = []
     }
+  , { process = { name = "firing", note = Just "doesn't matter whether they're contractors or employees" }
+    , modifiers = []
+    }
   , { process = { name = "fixing a mistake", note = Nothing }
     , modifiers =
         [ { name = "expensive", note = Nothing }
@@ -429,6 +432,12 @@ allCodes =
         [ { name = "hard", note = Nothing }
         ]
     }
+  , { process = { name = "managing stakeholder relationships", note = Nothing }
+    , modifiers =
+        [ { name = "board", note = Nothing }
+        , { name = "shareholders", note = Nothing }
+        ]
+     }
   , { process = { name = "meeting/finding co-founder(s)", note = Nothing }
     , modifiers =
         [ { name = "late", note = Nothing }

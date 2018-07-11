@@ -50,6 +50,7 @@ input:focus {
 }
 
 .selection h1 {
+  font-family: "Comic Sans MS", helvetica, sans-serif;
   color: black;
   font-size: 24px;
 }
@@ -84,6 +85,7 @@ input:focus {
 }
 
 .process {
+  font-family: "Comic Sans MS", helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
   padding: 10px 20px 5px 20px;

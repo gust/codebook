@@ -543,7 +543,7 @@ allCodes =
     , modifiers =
         []
     }
-  , { process = { name = "starting a company", note = Nothing}
+  , { process = { name = "starting a company", note = Just "meaningfully distinct from 'starting a project' and 'incorporating'—this is the process of transitioning from project to business, if the interviewee doesn't specifically mention incorporating at the moment." }
     , modifiers =
         [ { name = "commerce", note = Nothing }
         , { name = "repeatedly", note = Nothing }

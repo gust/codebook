@@ -641,6 +641,7 @@ allCodes =
     , modifiers =
         [ { name = "low quality", note = Nothing }
         , { name = "to manage equity", note = Nothing }
+        , { name = "to file incorporation", note = Just "i.e. the lawyer actually managed the filing" }
         ]
     }
   , { process = { name = "using marketing tools", note = Nothing}

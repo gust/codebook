@@ -302,6 +302,7 @@ allCodes =
         , { name = "non-founder", note = Just "working at a startup" }
         , { name = "starting a company", note = Nothing }
         , { name = "technical", note = Nothing }
+        , { name = "hiring", note = Nothing }
         ]
     }
   , { process = { name = "helping network", note = Nothing }
@@ -313,6 +314,8 @@ allCodes =
         , { name = "developers", note = Nothing }
         , { name = "part-time", note = Nothing }
         , { name = "poor fit", note = Nothing }
+        , { name = "specialized", note = Nothing }
+        , { name = "hard", note = Nothing }
         ]
     }
   , { process = { name = "hiring counsel", note = Nothing }

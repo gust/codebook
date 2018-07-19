@@ -126,9 +126,17 @@ main =
 
 allCodes : List Code
 allCodes =
-  [ { process = { name = "being frustrated", note = Nothing }
+  [ { process = { name = "applying to accelerator", note = Nothing }
+    , modifiers = 
+        [ { name = "again", note = Nothing }
+        , { name = "ycombinator", note = Nothing }
+        ]
+    }
+  , { process = { name = "being frustrated", note = Nothing }
     , modifiers =
-        [ { name = "speed", note = Nothing }
+        [ { name = "by legal requirements", note = Nothing }
+        , { name = "with fundraising", note = Nothing }
+        , { name = "speed", note = Nothing }
         , { name = "cost", note = Nothing }
         ]
     }
@@ -139,7 +147,11 @@ allCodes =
     , modifiers =
         [ { name = "to lawyer", note = Nothing }
         , { name = "by accelerator", note = Nothing }
+        , { name = "by school", note = Nothing }
+        , { name = "to co-founders", note = Nothing }
+        , { name = "to founders", note = Nothing }
         , { name = "to advisors", note = Nothing }
+        , { name = "to investors ", note = Nothing }
         , { name = "by investors ", note = Nothing }
         , { name = "to accountant", note = Nothing }
         , { name = "to clients/customers", note = Nothing }
@@ -158,6 +170,7 @@ allCodes =
     , modifiers =
         [ { name = "with content", note = Nothing }
         , { name = "with thought leadership", note = Nothing }
+        , { name = "with influencers", note = Nothing }
         ]
     }
   , { process = { name = "checking a lawyer's work", note = Nothing }
@@ -166,11 +179,15 @@ allCodes =
   , { process = { name = "creating an option pool", note = Nothing }
     , modifiers =
         [ { name = "at fundraising", note = Nothing }
+        , { name = "at incorporation", note = Nothing }
+        , { name = "when co-founder joins", note = Nothing }
         ]
     }
   , { process = { name = "DIY", note = Just "Emphasis on that they are doing it themselves (the mentality), not on what they are doing" }
     , modifiers =
         [ { name = "being able to do it", note = Nothing }
+        , { name = "legal", note = Nothing }
+        , { name = "incorporation", note = Nothing }
         , { name = "good fit", note = Nothing }
         , { name = "expense tracking", note = Just "use when they don't mention their tools. for example, 'i was holding myself accountable.' cf. using expense tracking + diy" }
         ]
@@ -203,6 +220,7 @@ allCodes =
   , { process = { name = "fundraising", note = Nothing }
     , modifiers =
         [ { name = "seed", note = Nothing }
+        , { name = "from incubator", note = Nothing }
         , { name = "friends & family", note = Nothing }
         , { name = "from accelerator", note = Nothing }
         , { name = "from angel(s)", note = Nothing }
@@ -214,13 +232,20 @@ allCodes =
     , modifiers =
         [ { name = "self", note = Nothing }
         , { name = "from an award", note = Nothing }
+        , { name = "from accelerator", name = Nothing }
         , { name = "from incubator", note = Nothing }
         ]
     }
+  , { process = { name = "getting a valuation", note = Nothing }
+    , modifiers =
+        [ { name = "hard", note = Nothing } ]
   , { process = { name = "getting advice", note = Nothing }
     , modifiers =
         [ { name = "legal", note = Nothing }
+        , { name = "expensive", note = Nothing }
+        , { name = "cap table", note = Nothing }
         , { name = "early", note = Nothing }
+        , { name = "from accountant", note = Nothing }
         , { name = "for incorporation", note = Nothing }
         , { name = "from school", note = Nothing }
         , { name = "from lawyer", note = Nothing }
@@ -238,6 +263,11 @@ allCodes =
   , { process = { name = "getting help", note = Nothing }
     , modifiers =
         [ { name = "legal", note = Nothing }
+        , { name = "not helpful", note = Nothing }
+        , { name = "accounting", note = Nothing }
+        , { name = "for fundraising", note = Nothing }
+        , { name = "with design", note = Nothing }
+        , { name = "specialized", note = Nothing }
         , { name = "from school", note = Nothing }
         , { name = "from accelerator", note = Nothing }
         , { name = "with incorporation", note = Nothing }
@@ -252,16 +282,14 @@ allCodes =
   , { process = { name = "getting traction", note = Nothing }
     , modifiers =
         [ { name = "quickly", note = Nothing }
-        ]
-    }
-  , { process = { name = "getting a valuation", note = Nothing }
-    , modifiers =
-        [ { name = "hard", note = Nothing }
+        , { name = "slowly", note = Nothing }
         ]
     }
   , { process = { name = "growing a company", note = Just "internal pressure: hiring, office, culture etc., as opposed to \"scaling\" which we use to mean dealing with external pressure (many customers)" }
     , modifiers =
         [ { name = "business plan", note = Nothing }
+        , { name = "team", note = Nothing }
+        , { name = "hard", note = Nothing }
         , { name = "culture", note = Nothing }
         , { name = "slow", note = Nothing }
         , { name = "expensive", note = Nothing }
@@ -269,16 +297,6 @@ allCodes =
     }
   , { process = { name = "having a board", note = Nothing }
     , modifiers = []
-    }
-  , { process = { name = "having competitors", note = Nothing }
-    , modifiers = []
-    }
-  , { process = { name = "having connections", note = Nothing }
-    , modifiers =
-        [ { name = "important", note = Nothing }
-        , { name = "founders", note = Nothing }
-        , { name = "through school", note = Nothing }
-        ]
     }
   , { process = { name = "having a team", note = Nothing }
     , modifiers =
@@ -294,15 +312,35 @@ allCodes =
         , { name = "from experience", note = Nothing }
         ]
     }
+  , { process = { name = "having competitors", note = Nothing }
+    , modifiers = []
+    }
+  , { process = { name = "having connections", note = Nothing }
+    , modifiers =
+        [ { name = "important", note = Nothing }
+        , { name = "founders", note = Nothing }
+        , { name = "to investors", note = Nothing }
+        , { name = "to lawyers", note = Nothing }
+        , { name = "through school", note = Nothing }
+        ]
+    }
   , { process = { name = "having experience", note = Nothing }
     , modifiers =
         [ { name = "in industry", note = Nothing }
         , { name = "with startups", note = Nothing }
+        , { name = "from business school", note = Just "working at a startup" }
+        , { name = "investing", note = Just "working at a startup" }
+        , { name = "hiring", note = Just "working at a startup" }
         , { name = "with board relations", note = Nothing }
         , { name = "non-founder", note = Just "working at a startup" }
+        , { name = "with incorporation", note = Nothing }
+        , { name = "PR", note = Nothing }
         , { name = "starting a company", note = Nothing }
         , { name = "technical", note = Nothing }
         ]
+    }
+  , { process = { name = "having a founders' agreement", note = Nothing }
+    , modifiers = [ { name = "informal", note = Nothing } ]
     }
   , { process = { name = "helping network", note = Nothing }
     , modifiers = []
@@ -311,6 +349,9 @@ allCodes =
     , modifiers =
         [ { name = "designers", note = Nothing }
         , { name = "developers", note = Nothing }
+        , { name = "stressful", note = Nothing }
+        , { name = "hard", note = Nothing }
+        , { name = "specialized", note = Nothing }
         , { name = "part-time", note = Nothing }
         , { name = "poor fit", note = Nothing }
         ]
@@ -318,6 +359,9 @@ allCodes =
   , { process = { name = "hiring counsel", note = Nothing }
     , modifiers =
         [ { name = "at incorporation", note = Nothing }
+        , { name = "at fundraising", note = Nothing }
+        , { name = "not based on price", note = Nothing }
+        , { name = "based on preexisting relationship", note = Nothing }
         , { name = "introduced", note = Nothing }
         , { name = "based on feels", note = Just "a personality, interest in project, good meeting, etc" }
         , { name = "based on their network", note = Just "the lawyer/firm's network" }
@@ -328,6 +372,7 @@ allCodes =
   , { process = { name = "hiring employees", note = Nothing }
     , modifiers =
         [ { name = "full-time", note = Nothing }
+        , { name = "part-time", note = Nothing }
         , { name = "first", note = Nothing }
         , { name = "multiple", note = Nothing }
         , { name = "smart people", note = Nothing }
@@ -365,6 +410,7 @@ allCodes =
   , { process = { name = "issuing shares", note = Nothing }
     , modifiers =
         [ { name = "initial", note = Nothing }
+        , { name = "to co-founders", note = Nothing }
         , { name = "for contributions", note = Just "other than investment" }
         ]
     }
@@ -382,12 +428,22 @@ allCodes =
   , { process = { name = "knowing (about)", note = Nothing }
     , modifiers =
         [ { name = "nothing", note = Nothing }
+        , { name = "hedge funds", note = Nothing }
+        , { name = "HR", note = Nothing }
+        , { name = "cap tables", note = Nothing }
+        , { name = "metrics", note = Nothing }
+        , { name = "fundraising", note = Nothing }
+        , { name = "startups", note = Nothing }
+        , { name = "marketing", note = Nothing }
         , { name = "term sheet norms", note = Nothing }
         , { name = "company structure", note = Nothing }
         , { name = "hiring", note = Nothing }
         , { name = "Saas finances", note = Nothing }
         , { name = "board relations", note = Nothing }
         , { name = "taxes", note = Nothing }
+        , { name = "finance", note = Nothing }
+        , { name = "contracts", note = Nothing }
+        , { name = "what to do", note = Nothing }
         , { name = "PR", note = Nothing }
         , { name = "accounting", note = Nothing }
         ]
@@ -398,6 +454,11 @@ allCodes =
   , { process = { name = "making a decision", note = Nothing }
     , modifiers =
         [ { name = "based on complexity", note = Nothing }
+        , { name = "based on fundraising requirements", note = Nothing }
+        , { name = "based on recruiting", note = Nothing }
+        , { name = "based on time", note = Nothing }
+        , { name = "based on scalability", note = Nothing }
+        , { name = "based on experience", note = Nothing }
         , { name = "based on common wisdom", note = Nothing }
         , { name = "based on finances", note = Nothing }
         , { name = "based on legal obligations", note = Nothing }
@@ -408,6 +469,10 @@ allCodes =
   , { process = { name = "making a mistake", note = Nothing }
     , modifiers =
         [ { name = "expensive", note = Nothing }
+        , { name = "not fundraising", note = Nothing }
+        , { name = "experience", note = Nothing }
+        , { name = "marketing tools", note = Nothing }
+        , { name = "PR", note = Nothing }
         , { name = "hiring", note = Nothing }
         , { name = "outsourcing", note = Nothing }
         , { name = "lawyer", note = Just "the lawyer is the mistake, not the lawyer made the mistake" }
@@ -416,6 +481,7 @@ allCodes =
         , { name = "legal", note = Nothing }
         , { name = "LLC", note = Nothing }
         , { name = "PEO", note = Nothing }
+        , { name = "incorporation", note = Nothing }
         , { name = "personal", note = Nothing }
         , { name = "vendors", note = Nothing }
         , { name = "not hiring", note = Just "should have hired, but didn't" }
@@ -437,6 +503,7 @@ allCodes =
     , modifiers =
         [ { name = "board", note = Nothing }
         , { name = "shareholders", note = Nothing }
+        , { name = "advisors", note = Nothing }
         ]
      }
   , { process = { name = "meeting/finding co-founder(s)", note = Nothing }
@@ -451,7 +518,7 @@ allCodes =
     }
   , { process = { name = "needing a bank account", note = Nothing }
     , modifiers =
-        []
+        [ { name = "credit card", note = Nothing } ]
     }
   , { process = { name = "needing EIN", note = Nothing }
     , modifiers =
@@ -496,11 +563,15 @@ allCodes =
     }
   , { process = { name = "opening a bank account", note = Nothing }
     , modifiers =
-        []
+        [ { name = "credit card", note = Nothing } ]
     }
   , { process = { name = "outsourcing", note = Nothing }
     , modifiers =
         [ { name = "CFO", note = Nothing }
+        , { name = "social media management", note = Nothing }
+        , { name = "expensive", note = Nothing }
+        , { name = "quickly", note = Nothing }
+        , { name = "PR", note = Nothing }
         , { name = "bookkeeper", note = Nothing }
         , { name = "finances", note = Nothing }
         , { name = "development", note = Nothing }
@@ -512,9 +583,14 @@ allCodes =
   , { process = { name = "paying people", note = Nothing }
     , modifiers =
         [ { name = "employees", note = Nothing }
+        , { name = "contractors", note = Nothing }
         , { name = "founders/selves", note = Nothing }
         , { name = "under-market", note = Nothing }
         ]
+    }
+  , { process = { name = "paying taxes", note = Nothing }
+    , modifiers =
+        []
     }
   , { process = { name = "pivoting", note = Nothing }
     , modifiers =
@@ -528,6 +604,12 @@ allCodes =
     , modifiers =
         []
     }
+  , { process = { name = "quitting job", note = Nothing }
+    , modifiers =
+        [ { name = "instability", note = Nothing }
+        , { name = "with a backup plan", note = Nothing }
+        ]
+     }
   , { process = { name = "researching", note = Nothing }
     , modifiers =
         [ { name = "industry", note = Nothing }
@@ -541,11 +623,8 @@ allCodes =
   , { process = { name = "scaling", note = Just "external pressure: customers, revenue, etc" }
     , modifiers =
         [ { name = "quickly", note = Nothing }
+        , { name = "needing to", note = Nothing }
         ]
-    }
-  , { process = { name = "setting up an operating agreement", note = Nothing }
-    , modifiers =
-        []
     }
   , { process = { name = "shutting down", note = Nothing }
     , modifiers =
@@ -553,7 +632,7 @@ allCodes =
     }
   , { process = { name = "spinning out", note = Nothing }
     , modifiers =
-        []
+        [ { name = "at fundraising", note = Nothing } ]
     }
   , { process = { name = "starting a company", note = Just "meaningfully distinct from 'starting a project' and 'incorporating'—this is the process of transitioning from project to business, if the interviewee doesn't specifically mention incorporating at the moment." }
     , modifiers =
@@ -573,6 +652,10 @@ allCodes =
         , { name = "to a (different) accountant", note = Nothing }
         ]
     }
+  , { process = { name = "switching lawyer", note = Nothing }
+    , modifiers =
+        []
+    }
   , { process = { name = "switching marketing tools", note = Nothing}
     , modifiers =
         [ { name = "to Hubspot", note = Nothing }
@@ -584,23 +667,18 @@ allCodes =
         ]
     }
   , { process = { name = "talking to founders", note = Nothing}
-    , modifiers = []
+    , modifiers = [ { name = "to build network", note = Nothing } ]
     }
   , { process = { name = "testing", note = Nothing}
     , modifiers =
         [ { name = "MVP", note = Nothing }
         ]
     }
-  , { process = { name = "quitting your job", note = Nothing}
-    , modifiers =
-        [ { name = "instability", note = Nothing }
-        , { name = "with a backup plan", note = Nothing }
-        ]
-    }
   , { process = { name = "using blogs ", note = Nothing}
     , modifiers =
         [ { name = "written by VCs", note = Nothing }
         , { name = "conflicting info", note = Nothing }
+        , { name = "not confident", note = Nothing }
         ]
     }
   , { process = { name = "using cap table management", note = Nothing}
@@ -615,6 +693,7 @@ allCodes =
         [ { name = "DIY", note = Just "ie. proactively tracking expenses but without paid software/help. use only when they mention how they were tracking. cf. diy + expense tracking" }
         , { name = "Propellor", note = Nothing }
         , { name = "Quickbooks Online", note = Nothing }
+        , { name = "partial", note = Nothing }
         ]
     }
   , { process = { name = "using experience", note = Nothing}
@@ -623,7 +702,7 @@ allCodes =
         ]
     }
   , { process = { name = "using google", note = Nothing}
-    , modifiers = []
+    , modifiers = [ name = "to find lawyers", note = Nothing } ]
     }
   , { process = { name = "using hackernews", note = Nothing}
     , modifiers = []
@@ -632,6 +711,7 @@ allCodes =
     , modifiers =
         [ { name = "Insperity", note = Nothing }
         , { name = "PEO", note = Nothing }
+        , { name = "Trinet", note = Nothing }
         , { name = "Gusto", note = Nothing }
         , { name = "for payroll", note = Nothing }
         , { name = "Paychex", note = Nothing }
@@ -641,11 +721,14 @@ allCodes =
     , modifiers =
         [ { name = "low quality", note = Nothing }
         , { name = "to manage equity", note = Nothing }
+        , { name = "expensive", note = Nothing }
+        , { name = "incorporation", note = Nothing }
         ]
     }
   , { process = { name = "using marketing tools", note = Nothing}
     , modifiers =
         [ { name = "WordPress", note = Nothing }
+        , { name = "Wistia", note = Nothing }
         , { name = "Salesforce", note = Nothing }
         , { name = "Hubspot", note = Nothing }
         , { name = "poor fit", note = Nothing }
@@ -655,6 +738,8 @@ allCodes =
     , modifiers =
         [ { name = "school", note = Nothing }
         , { name = "legal", note = Nothing }
+        , { name = "for advice", note = Nothing }
+        , { name = "for investment", note = Nothing }
         , { name = "accelerator", note = Nothing }
         , { name = "for testing", note = Nothing }
         , { name = "for validation", note = Nothing }
@@ -664,6 +749,10 @@ allCodes =
         , { name = "for lawyer", note = Nothing }
         , { name = "lawyer's", note = Nothing }
         , { name = "personal/family", note = Nothing } ]
+    }
+  , { process = { name = "using Startup Checklist", note = Nothing }
+    , modifiers =
+        []
     }
   , { process = { name = "using a PEO", note = Nothing}
     , modifiers =
@@ -701,6 +790,8 @@ allCodes =
   , { process = { name = "working on a project", note = Nothing}
     , modifiers =
         [ { name = "part-time/nights and weekends", note = Nothing }
+        , { name = "at school", note = Nothing }
+        , { name = "full-time", note = Nothing }
         , { name = "at an incubator", note = Nothing }
         ]
     }

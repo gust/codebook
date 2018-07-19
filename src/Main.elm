@@ -232,13 +232,14 @@ allCodes =
     , modifiers =
         [ { name = "self", note = Nothing }
         , { name = "from an award", note = Nothing }
-        , { name = "from accelerator", name = Nothing }
+        , { name = "from accelerator", note = Nothing }
         , { name = "from incubator", note = Nothing }
         ]
     }
   , { process = { name = "getting a valuation", note = Nothing }
     , modifiers =
         [ { name = "hard", note = Nothing } ]
+    }
   , { process = { name = "getting advice", note = Nothing }
     , modifiers =
         [ { name = "legal", note = Nothing }
@@ -702,7 +703,7 @@ allCodes =
         ]
     }
   , { process = { name = "using google", note = Nothing}
-    , modifiers = [ name = "to find lawyers", note = Nothing } ]
+    , modifiers = [ { name = "to find lawyers", note = Nothing } ]
     }
   , { process = { name = "using hackernews", note = Nothing}
     , modifiers = []

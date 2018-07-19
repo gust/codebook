@@ -282,7 +282,6 @@ allCodes =
   , { process = { name = "getting traction", note = Nothing }
     , modifiers =
         [ { name = "quickly", note = Nothing }
-        , { name = "not", note = Nothing }
         , { name = "slowly", note = Nothing }
         ]
     }

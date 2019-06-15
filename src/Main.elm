@@ -338,6 +338,7 @@ allCodes =
         , { name = "PR", note = Nothing }
         , { name = "starting a company", note = Nothing }
         , { name = "technical", note = Nothing }
+        , { name = "hiring", note = Nothing }
         ]
     }
   , { process = { name = "having a founders' agreement", note = Nothing }
@@ -355,6 +356,8 @@ allCodes =
         , { name = "specialized", note = Nothing }
         , { name = "part-time", note = Nothing }
         , { name = "poor fit", note = Nothing }
+        , { name = "specialized", note = Nothing }
+        , { name = "hard", note = Nothing }
         ]
     }
   , { process = { name = "hiring counsel", note = Nothing }
